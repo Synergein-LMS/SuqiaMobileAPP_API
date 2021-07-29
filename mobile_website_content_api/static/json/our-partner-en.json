@@ -1,0 +1,43 @@
+{
+    "data": {
+      "page_id": "4",
+      "sub_page": true,
+      "page_title": "OUR PARTNERS",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+        "our_partners":[
+        {
+          
+          "partner_id": 1,
+          "name": "OUR PARTNERS",
+          "desc": "",
+          "content":"Our strategic and implementing partners are UAE-based entities that work with a global network of professionals and organisations from the field. Together with our partners, we are providing communities with access to safe and clean water by implementing sustainable water projects and identifying innovative sustainable solutions to water scarcity. Get to know our partners:",
+            "img": ""
+        }
+      ],
+      "partners":[
+        {
+          "card_id":1,
+          "img":"/web/image/5068/dewa.png",
+          "title":"Dubai Electricity and Water Authority",
+          "content":"Suqia is annexed to Dubai Electricity and Water Authority, DEWA, by law number 3, which was issued by His Highness Sheikh Mohammed Bin Rashid Al Maktoum in 2015"
+          
+        },
+         {
+          "card_id":2,
+          "img":"/web/image/5069/smuhlogo.png",
+          "title":"Mohammed Bin Rashid Al Maktoum Humanitarian & Charity Est.",
+          "content":"In 2015, Suqia partnered with the Mohammed Bin Rashid Al Maktoum Humanitarian and Charity Est., MBRHC, a sister entity under the umbrella of the Mohammed bin Rashid Al Maktoum Global Initiatives, with the purpose of initiating international water projects."
+          
+        },
+         {
+          "card_id":3,
+          "img":"/web/image/5070/redcross.png",
+          "title":"Emirates Red Crescent",
+          "content":"In 2014, His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Minister of the UAE and Ruler of Dubai launched the Suqia initiative to provide clean water to five million people worldwide."
+          
+        }       
+      ]
+      }
+    }
+  }

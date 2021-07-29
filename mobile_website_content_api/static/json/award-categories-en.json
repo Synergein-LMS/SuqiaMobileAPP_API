@@ -1,0 +1,29 @@
+{
+    "data": {
+      "page_id": "21",
+      "sub_page":true,
+      "page_title": "AWARD",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+       "banner":"/web/image/468/our-programes-title.jpg",
+       "award_categories":{
+
+            "title":"AWARD CATEGORIES",
+            "content":"The Award is comprised of 4 main categories that target pioneering organisations, research centres, individuals, educational institutions, and innovators from all around the world to motivate participants to come up with innovative, renewable energy powered solutions with the aim to either produce, distribute, store, monitor, desalinate and/or purify water:",
+            "categories":["INNOVATIVE PROJECTS AWARD","INNOVATIVE INDIVIDUAL AWARD","INNOVATIVE RESEARCH & DEVELOPMENT AWARD", "INNOVATIVE CRISIS SOLUTIONS AWARD"]
+        },
+        "categories":[
+
+            {   "cat_id":1,
+                "title":"INNOVATIVE PROJECTS AWARD",
+                "desc":"The project submitted by the applicant must be an innovative and commercialized or a ready-to-be- commercialised (e.g. past pilot stage) solution with measurable results in operation for at least 3 months (minimum requirement) prior to the closing date of the application window. The project can consist of a single system or a pool of multiple systems that have been deployed by the same organisation in different locations. The project should rely on 100% use of renewable energy to produce safe drinking water in line with World Health Organisation (WHO) guidelines. It should demonstrate innovation in production capacity, overcoming technical limitations, disinfection systems, operation and maintenance requirements, while also improving efficiency and cost effectiveness. The project benefits should meet the WHO requirements for non-emergency water availability, that is, provide a minimum of 30 lit/person/day* to intended recipients.",
+                "intended_applicants":"Governmental, semi-governmental, private and non-governmental organizations.",
+                "img":"/web/image/520/award_cat1.svg"
+            }
+            
+        ]
+         
+      }
+    }
+  }
+

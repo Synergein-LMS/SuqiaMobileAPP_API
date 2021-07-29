@@ -1,0 +1,92 @@
+{
+    "data": {
+      "page_id": "12",
+      "sub_page":true,
+      "page_title": "حلولنا  ",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+  
+        "banner":[
+          {
+            
+            "title": "حلولنا ",
+            "img":"/web/image/484/hands-field-title.jpg",
+            "des":"كيف نقدم المساعدة  ",
+            "content":"نحرص دوماً على العمل مع شركاء يتفقون معنا في الرؤية والشغف لخدمة المجتمعات المحتاجة للمياه الصالحة للشرب. فأمامنا مهمة علينا إنجازها للقضاء على أزمة المياه، ولقد تمكنّا من خلال الشراكات المتعددة من إنجاز أكثر من 1000 مشروع ساعد على توفير المياه النظيفة للملايين. فقبل تنفيذ مشروع ما، نحرص دائماً على تقييم احتياجات المجتمع وظروفه، و نأخذ بعين الاعتبار حجم المجتمع، وكثافته السكانية، وتوافر الموارد المائية و جودتها و تضاريس المنطقة و مناخها؛ وذلك لتحديد أفضل الحلول والتقنيات اللازمة لتوفير مياه شرب آمنة. "
+          }
+        ],
+        "more_about_solutions":
+        {
+        "title":"يمكنك قراءة المزيد من المعلومات عن الحلول التي ننفذها أدناه: ",
+        "list_content":  [
+         
+            {
+              "list_content_id":1,
+              "svg_icon_path": "/web/image/504/water-purification-ico.svg",
+              "title":"محطات تنقية المياه ",
+              "content":"ننشئ محطات تنقية لإزالة الشوائب من المياه الملوثة. وتُستخدم بعد تنقيتها للشرب والطهي والري. "
+            
+            },
+            {  "list_content_id":2,
+
+                "svg_icon_path": "/web/image/505/water-station-icon.svg",
+                "content":""
+              
+            },
+            {
+                "list_content_id":3,
+
+                "svg_icon_path": "/web/image/506/artesian-well-icon.svg",
+                "content":""
+              
+            },
+            {
+                "list_content_id":4,
+
+                "svg_icon_path": "/web/image/508/surface-well-icon.svg",
+                "content":""
+              
+            },
+            {
+                "list_content_id":5,
+
+                "svg_icon_path": "/web/image/509/mountain-spring-icon.svg",
+                "content":""
+              
+            },
+             {
+                "list_content_id":6,
+
+                "svg_icon_path": "/web/image/510/water-cooler-icon.svg",
+                "content":""
+              
+            },
+            {
+                "list_content_id":7,
+
+                "svg_icon_path": "/web/image/511/charitable-aid-icon.svg",
+                "content":""
+              
+            },
+            {
+                "list_content_id":8,
+
+                "svg_icon_path": "/web/image/512/water-distribution-icon.svg",
+                "content":""
+              
+            },
+             {
+                "list_content_id":9,
+
+                "svg_icon_path": "/web/image/513/sanitation-facility-icon.svg",
+                "content":""
+              
+            }
+                
+          ]
+        
+        }
+      
+      }
+    }
+  }

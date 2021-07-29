@@ -1,0 +1,174 @@
+{
+    "data": {
+      "page_id": "15",
+      "sub_page":true,
+      "page_title": "EVALUATION CRITERIA",
+      "img_base_url": "https://www.suqia.ae",
+      "content":"Applications will be evaluated against a set of evaluation criteria relevant to the applied category (Innovative Projects Award, Innovative Research & Development Award, Innovative Individual Award and Innovative Crisis Solutions Award) in order to ensure fair and appropriate scoring of entries and selection of winners.",
+      "Note:": "Local in the below context refers to the local to the area/country of the project development or implementation (or intended implementation).",
+      "sections": {
+            
+        "award_criteria":[
+            {   "criteria_id":1,
+                "title":"INNOV  ATIVE PROJECTS AWARD",
+                "desc":"Applications submitted under the Innovative Projects Award Category and its subcategories will be evaluated against:",
+                "projects":[
+                    { 
+                        "title":"Technology & Process Design",
+                        "desc":"Quality and safety of product water and water production capacity as a function of feed water quality, environmental conditions, technical limitations, disinfection systems and operation and maintenance requirements.",
+                        "percentage":"20%"
+                    
+                    },
+                    {
+                        "title":"Creativity and Innovation",
+                        "percentage":"30%",
+                        "desc":"Demonstration of new and innovative methodologies and applications using renewable energy, and innovations to improve overall efficiency."
+                    },
+                    {
+                        "title":"Adaptability to Local Environments",
+                        "percentage":"20%",
+                        "desc":"Simplicity in assembly and disassembly, operation & maintenance and adaptability and durability to local operating conditions and harsh environments as well as engagement with the local community."
+                    },
+                    {
+                        "title":"Adherence to Health and Safety and Other Environment Standards",
+                        "percentage":"20%",
+                        "desc":"Compliance with applicable Environmental and Social Standards ( ESS ) and regulations. This includes demonstrating an approach process and / or providing evidence of compliance with applicable jurisdiction environmental and social regulations, and compliance with applicable health and safety standards and regulations.(Demonstrate how you have considered WHO guidelines for quality drinking water, with test results of water quality pre and post treatment submitted from a recognized laboratory.)"
+                    },
+                    {
+                        "title":"Cost-effectiveness and Scalability",
+                        "percentage":"10%",
+                        "desc":"A lifecycle cost-benefit analysis that shows positive results and if the project is ready for impact investment."
+                    }
+                ]
+            },
+            {
+                "criteria_id":2,
+                "title":"INNOVATIVE RESEARCH & DEVELOPMENT AWARD",
+                "desc":"Applications submitted under the Innovative Research & Development Award Category and its subcategories will be evaluated against:",
+                "projects":[
+                    { 
+                        "title":"Technology & Process Design",
+                        "desc":"Quality and safety of product water and water production capacity as a function of feed water quality, environmental conditions, technical limitations, disinfection systems and operation and maintenance requirements.",
+                        "percentage":"20%"
+                    
+                    },
+                    {
+                        "title":"Creativity and Innovation",
+                        "percentage":"40%",
+                        "desc":"Demonstration of new and innovative methodologies and applications using renewable energy, and innovations to improve overall efficiency."
+                    },
+                    {
+                        "title":"Adaptability to Local Environments",
+                        "percentage":"20%",
+                        "desc":"Simplicity in assembly and disassembly, operation & maintenance and adaptability and durability to local operating conditions and harsh environments as well as engagement with the local community."
+                    },
+                    {
+                        "title":"Adherence to Health and Safety and Other Environment Standards",
+                        "percentage":"10%",
+                        "desc":"Compliance with applicable Environmental and Social Standards ( ESS ) and regulations. This includes demonstrating an approach process and / or providing evidence of compliance with applicable jurisdiction environmental and social regulations, and compliance with applicable health and safety standards and regulations.(Demonstrate how you have considered WHO guidelines for quality drinking water, with test results of water quality pre and post treatment submitted from a recognized laboratory.)"
+                    },
+                    {
+                        "title":"Cost-effectiveness and Scalability",
+                        "percentage":"10%",
+                        "desc":"A lifecycle cost-benefit analysis that shows positive results and if the project is ready for impact investment."
+                    }
+                ]
+            },
+            {
+                "criteria_id":3,
+                "title":"INNOVATIVE INDIVIDUAL AWARD - DISTINGUISHED RESEARCHER AWARD",
+                "desc":"Applications submitted under the Innovative Individual Award – Distinguished Researcher Award subcategory will be evaluated against:",
+                "projects":[
+                    { 
+                        "title":"Technology & Process Design",
+                        "desc":"Quality and safety of product water and water production capacity as a function of feed water quality, environmental conditions, technical limitations, disinfection systems and operation and maintenance requirements.",
+                        "percentage":"15%"
+                    
+                    },
+                    {
+                        "title":"Creativity and Innovation",
+                        "percentage":"35%",
+                        "desc":"Demonstration of new and innovative methodologies and applications using renewable energy, and innovations to improve overall efficiency."
+                    },
+                    {
+                        "title":"Implementation Potential",
+                        "percentage":"15%",
+                        "desc":"Applicability for field projects, technologies and models showing potential for scale implementation"
+                    },
+                    {
+                        "title":"Proven Leadership in the Advancement of Water Scarcity Issues and/or the Production of Safe Drinking Water Using Renewable Energy Technology",
+                        "percentage":"35%",
+                        "desc":"Demonstration of more than 10 years’ experience in the water industry or water related academia research, experience in driving actionable efforts for the production of safe drinking water using renewable energy powered water solutions, accomplishments in driving awareness about water related issues among students, water professionals or the general public through lectures, conferences, trainings, workshops, webinars, etc.. The applicant should demonstrate leadership and engagement in the water community through having membership in water related associations or experience serving on the boards etc, and demonstrating their scientific publication track record (e.g. by number of citations, h-index, journal impact factor and awards) and/or project deployment."
+                    }
+                    
+                ]
+            },
+            {
+                "criteria_id":4,
+                "title":"INNOVATIVE INDIVIDUAL AWARD - YOUTH AWARD",
+                "desc":"Applications submitted under the Innovative Individual Award – Youth Award subcategory will be evaluated against:",
+                "projects":[
+                    { 
+                        "title":"Technology & Process Design",
+                        "desc":"Quality and safety of product water and water production capacity as a function of feed water quality, environmental conditions, technical limitations, disinfection systems and operation and maintenance requirements.",
+                        "percentage":"15%"
+                    
+                    },
+                    {
+                        "title":"Creativity and Innovation",
+                        "percentage":"50%",
+                        "desc":"Demonstration of new and innovative methodologies and applications using renewable energy, and innovations to improve overall efficiency."
+                    },
+                    {
+                        "title":"Adherence to Health and Safety and Other Environment Standards",
+                        "percentage":"10%",
+                        "desc":"Simplicity in assembly and disassembly, operation & maintenance and adaptability and durability to local operating conditions and harsh environments as well as engagement with the local community."
+                    },
+                    {
+                        "title":"Adherence to Health and Safety and Other Environment Standards",
+                        "percentage":"20%",
+                        "desc":"Compliance with applicable Environmental and Social Standards (ESS) and regulations. This includes demonstrating an approach process and / or providing evidence of compliance with applicable jurisdiction environmental and social regulations, and compliance with applicable health and safety standards and regulations.(Demonstrate you have considered WHO guidelines for quality drinking water, with test results of water quality pre and post treatment submitted from a recognized laboratory.)"
+                    },
+                    {
+                        "title":"Active Engagement, Teamwork, Education and Awareness on Water Scarcity Related Issues",
+                        "percentage":"25%",
+                        "desc":"Receiving recommendations/endorsements as evidence of local/global engagement on water scarcity related issues. In addition to the applicant’s participation in any awareness education programmes in relation to water scarcity related issues."
+                    }
+                ]
+            },
+            {
+                "criteria_id":5,
+                "title":"INNOVATIVE CRISIS SOLUTIONS AWARD",
+                "desc":"Applications submitted under the Innovative Individual Award – Youth Award subcategory will be evaluated against:",
+                "projects":[
+                    { 
+                        "title":"Ease of Deployment",
+                        "desc":"Simplicity in assembly and disassembly, operation and maintenance and speed of deployment.",
+                        "percentage":"30%"
+                    
+                    },
+                    {
+                        "title":"Creativity and Innovation",
+                        "percentage":"30%",
+                        "desc":"Demonstration of new and innovative methodologies and applications using renewable energy, and innovations to improve overall efficiency."
+                    },
+                    {
+                        "title":"Adaptability to Local Environments",
+                        "percentage":"30%",
+                        "desc":"Adaptability and durability to local operating conditions and harsh environments as well as engagement with the local community, and independency from existing utility supplies and provisions."
+                    },
+                    {
+                        "title":"Cost-effectiveness",
+                        "percentage":"10%",
+                        "desc":"Low cost of transportation and operation and demonstration of accessibility to poor and disaster stricken areas."
+                    }
+                ]
+            }
+       
+
+        ]
+  
+
+      }
+    }
+}
