@@ -1,0 +1,605 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * payment_dubaipay
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-12 08:18+0000\n"
+"PO-Revision-Date: 2020-10-12 08:18+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Donation"
+msgstr "اساهم بالتبرع"
+
+
+
+#. module: payment_dubaipay
+#. openerp-web
+#: code:addons/payment_dubaipay/static/src/xml/dubaipay_templates.xml:0
+#, python-format
+msgid "&times;"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"<b class=\"sponsor-amount\">\n"
+"                                          AED 120,000\n"
+"                                        </b>\n"
+"                            <br/>"
+msgstr "<b class=\"sponsor-amount\">120,000 درهم إماراتي </b><br/>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"<b class=\"sponsor-amount\">\n"
+"                                          AED 52,000\n"
+"                                        </b>\n"
+"                            <br/>"
+msgstr "<b class=\"sponsor-amount\">52,500 درهم إماراتي</b><br/>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"<b class=\"sponsor-amount\">\n"
+"                                      AED 6,315\n"
+"                                    </b>\n"
+"                        <br/>"
+msgstr "<b class=\"sponsor-amount\">6,315 درهم إماراتي</b><br/>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<font style=\"color: rgb(121, 121, 121);\">BANK TRANSFER</font>"
+msgstr "<font style=\"color: rgb(121, 121, 121);\">الحوالات المصرفية:</font>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<font style=\"color: rgb(121, 121, 121);\">SMS</font>"
+msgstr "<font style=\"color: rgb(121, 121, 121);\">الرسائل النصية:</font>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"<font style=\"font-size: 24px; color: rgba(121, 121, 121, 1);\">Your "
+"donation will fund projects that bring access to clean, safe water for "
+"people in developing countries around the world.<br/></font>"
+msgstr ""
+"<font style=\"font-size: 24px; color: rgba(121, 121, 121, 1);\">تبرعك سيساعد"
+" في تمويل مشاريع لتأمين المياه النظيفة والصالحة للشرب للمحتاجين في البلدان "
+"النامية حول العالم</font>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"<small id=\"amountHelp\" class=\"text-danger\">\n"
+"                                                      Please enter the amount\n"
+"                                                    </small>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"<span class=\"carousel-control-next-icon\"/>\n"
+"          <span class=\"sr-only o_default_snippet_text\">Next</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"<span class=\"carousel-control-prev-icon\"/>\n"
+"          <span class=\"sr-only o_default_snippet_text\">Previous</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "ONE TIME DONATION"
+msgstr "تبرع مرة واحدة"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"<span class=\"donate_text\">\n"
+"                                                    you are donating <span class=\"font-weight-bold\">AED</span> <span class=\"font-weight-bold\" id=\"donation_amount\">0</span>\n"
+"                                                  </span>"
+msgstr ""
+"<span class=\"donate_text\">\n"
+"                                                    أنت تتبرع <span class=\"font-weight-bold\" id=\"donation_amount\">0</span><span class=\"font-weight-bold\">درهم</span> \n"
+
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>150</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>250</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>25</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>500</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>5075</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>75</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>8025</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>8150</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>8250</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>8500</span>"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>Abu Dhabi Islamic Bank</span>"
+msgstr "<span>مصرف أبو ظبي الإسلامي</span>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>Account Number</span>"
+msgstr "<span>رقم الحساب</span>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>Bank Name</span>"
+msgstr "<span>اسم البنك</span>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>Donation Amount (AED)</span>"
+msgstr "<span>قيمة التبرع (الدرهم الإماراتي)</span>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>Dubai Islamic Bank</span>"
+msgstr "<span>بنك دبي الإسلامي</span>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>Emirates Islamic Bank</span>"
+msgstr "<span>مصرف الإمارات الإسلامي</span>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>IBAN No. AE43 0500 0000 0001 2001 107</span>"
+msgstr "<span>رقم آيبان: AE43 0500 0000 0001 2001 107</span>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>IBAN No. AE46 0340 0037 0755 6269 301</span>"
+msgstr "<span>رقم آيبان: AE46 0340 0037 0755 6269 301</span>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>IBAN No. AE58 0240 0165 2008 1625 701</span>"
+msgstr "<span>رقم آيبان: AE58 0240 0165 2008 1625 701</span>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "<span>Project Number</span>"
+msgstr "<span>رقم الرسالة النصية</span>"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "A Better health"
+msgstr "صحة أفضل"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "A Brighter Future"
+msgstr "مستقبل أكثر إشراقاً"
+
+#. module: payment_dubaipay
+#: code:addons/payment_dubaipay/controllers/main.py:0
+#, python-format
+msgid "A journal must be specified of the acquirer %s."
+msgstr "يجب تحديد دفتر يومية لمعالج السداد %s."
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "AED 150"
+msgstr "150 درهم"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "AED 25"
+msgstr "25 درهم"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "AED 250"
+msgstr "250 درهم"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "AED 500"
+msgstr "500 درهم"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "AED 75"
+msgstr "75 درهم"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Beneficiaries: 250 people"
+msgstr "عدد المستفيدين: 250 شخص"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Beneficiaries: 400 people"
+msgstr "عدد المستفيدين: 400"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Beneficiaries: 8,000 people"
+msgstr "عدد المستفيدين: 8,000 شخص"
+
+#. module: payment_dubaipay
+#. openerp-web
+#: code:addons/payment_dubaipay/static/src/xml/dubaipay_templates.xml:0
+#: code:addons/payment_dubaipay/static/src/xml/dubaipay_templates.xml:0
+#, python-format
+msgid "Close"
+msgstr "إغلاق"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "DONATE"
+msgstr "ساهم بالتبرع"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Deposit into account name UAE Water Aid ( Suqia ) foundation"
+msgstr ""
+"للتبرع، أودع المبلغ الذي توّد التبرع به في الحساب المسمى \"مؤسسة سقيا "
+"الإمارات\" في أي من المصارف التالية:"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Donate"
+msgstr "ساهم بتبرعك"
+
+#. module: payment_dubaipay
+#: model:ir.model.fields.selection,name:payment_dubaipay.selection__payment_acquirer__provider__dubaipay
+#: model:payment.acquirer,name:payment_dubaipay.payment_acquirer_dubaipay
+msgid "DubaiPay"
+msgstr ""
+
+#. module: payment_dubaipay
+#: code:addons/payment_dubaipay/models/payment.py:0
+#, python-format
+msgid "DubaiPay: received data with missing reference (%s) or txn_id (%s)"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model:ir.model.fields,field_description:payment_dubaipay.field_payment_transaction__dubaipay_payment_method
+msgid "Dupaipay Payment Method"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model:ir.model.fields,field_description:payment_dubaipay.field_payment_transaction__dubaipay_status_code
+msgid "Dupaipay Staus Code"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model:ir.model.fields,field_description:payment_dubaipay.field_payment_transaction__dubaipay_txnTimestamp
+msgid "Dupaipay txnTimestamp"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Empowerment"
+msgstr "التمكين"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Enter Your Amount"
+msgstr "أدخل المبلغ"
+
+#. module: payment_dubaipay
+#. openerp-web
+#: code:addons/payment_dubaipay/static/src/xml/dubaipay_templates.xml:0
+#, python-format
+msgid "Error"
+msgstr "خطأ"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "HOME"
+msgstr "الرئيسية"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Help contribute a water project for a community in need."
+msgstr ""
+"ساهم في تمويل مشاريعنا التي تهدف في توفير المياه الصالحة للشرب للمجتمعات "
+"المحتاجة."
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Location: Bangladesh"
+msgstr "الموقع: بنغلاديش"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Location: Benin"
+msgstr "الموقع: بنين"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Location: Mali<br/>"
+msgstr "الموقع: مالي&amp;nbsp;"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Next"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "OTHER WAYS TO DONATE"
+msgstr "طرق أخرى للتبرع"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Odoo • Image and Text"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Other Amount"
+msgstr "مبلغ آخر"
+
+#. module: payment_dubaipay
+#: model:ir.model,name:payment_dubaipay.model_payment_acquirer
+msgid "Payment Acquirer"
+msgstr "معالج السداد"
+
+#. module: payment_dubaipay
+#: model:ir.model,name:payment_dubaipay.model_payment_transaction
+msgid "Payment Transaction"
+msgstr "معاملة السداد"
+
+#. module: payment_dubaipay
+#. openerp-web
+#: code:addons/payment_dubaipay/static/src/js/donation.js:0
+#, python-format
+msgid "Payment error"
+msgstr ""
+
+#. module: payment_dubaipay
+#: code:addons/payment_dubaipay/controllers/main.py:0
+#, python-format
+msgid "Payment gateway is disabled!"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Previous"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model:ir.model.fields,field_description:payment_dubaipay.field_payment_acquirer__provider
+msgid "Provider"
+msgstr "المزود"
+
+#. module: payment_dubaipay
+#. openerp-web
+#: code:addons/payment_dubaipay/static/src/js/donation.js:0
+#, python-format
+msgid "Redirecting to Payment Gateway"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "SPONSOR A PROJECT"
+msgstr "قم برعاية مشروع"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "SPONSOR A PROJECT<br/>"
+msgstr "قم برعاية مشروع"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Select The Amount You Want to donate"
+msgstr "اخترالمبلغ الذي تريد التبرع به"
+
+#. module: payment_dubaipay
+#: model:ir.model.fields,field_description:payment_dubaipay.field_payment_acquirer__suqia_servcode
+msgid "ServCode"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.PaymentFailed
+msgid "Sorry, your payment transaction has been failed."
+msgstr ""
+
+#. module: payment_dubaipay
+#: model:ir.model.fields,field_description:payment_dubaipay.field_payment_acquirer__suqia_spcode
+msgid "SpCode"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Sponsor This Project"
+msgstr "قم برعاية مشروع"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.PaymentSuccess
+msgid "Thank you!"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"The following communities need your help! You can choose to sponsor an "
+"entire water project to either communities below:"
+msgstr ""
+"المجتمعات التالية بحاجة لمساعدتك! بإمكانك اختيار رعاية مشروع مياه بأكمله لأي"
+" من المجتمعات المدرجة في الأسفل:"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Title: Water project in Bangladesh"
+msgstr "المشروع: مشروع مياه في بنغلاديش"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Title: Water project in Benin"
+msgstr "المشروع: مشروع مياه في بنين"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Title: Water project in Mali"
+msgstr "المشروع: مشروع مياه في مالي"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"To Donate SMS “SUQIA” (Etisalat &amp;amp; Du) for the UAE numbers listed "
+"below:"
+msgstr "للتبرع برسالة نصية أرسل \"سقيا\" (اتصالات أو دو) على الأرقام التالية :"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Type of Solution: Artesian Well<br/>"
+msgstr "نوع الحل: بئر ارتوازي"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Type of Solution: Electric Well with a Water Filter<br/>"
+msgstr "نوع الحل: بئر بمضخة كهربائية مع فلتر"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "Type of Solution: Surface Well<br/>"
+msgstr "نوع الحل: بئر سطحي"
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "WHEN YOU GIVE YOU GIVE"
+msgstr "عندما تمنح المياه، أنت تمنح..."
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"When you give water you give education. Children are often responsible for "
+"collecting water to help their families. This takes time from school and "
+"fulfilling their dreams. But when a community and a school gets water, kids "
+"have an opportunity for a brighter future and bigger dreams."
+msgstr ""
+"عندما توفر المياه، فأنت توفر فرصة التعليم.غالباً ما يعد الأطفال مسؤولون عن "
+"جمع المياه لمساعدة عائلاتهم. مما يؤثر على وقت دراستهم وتحقيق أحلامهم. لكن "
+"عندما تتوفر المياه للمجتمعات والمدارس، تُتاح للطلاب فرصة للحصول على مستقبل "
+"أفضل وأكثر إشراقاً."
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"When you give water you give health. Lack of safe water, sanitation and "
+"hygiene remains one of the world’s most urgent health issues. In developing "
+"countries, the chances of survival reduce in the absence of clean water and "
+"essential sanitation, especially for children. But when a community gets "
+"water, they get their health back."
+msgstr ""
+"عندما توفر المياه، فأنت توفر الصحة. فما زال نقص المياه وخدمات الصرف الصحي "
+"والنظافة من أهم المشكلات الصحية المُلِحة في العالم. حيث تنخفض فرص النجاة، في"
+" الدول النامية، بشكل كبير في غياب المياه النظيفة وأساسيات الصرف الصحي، خاصةً"
+" للأطفال. لكن عندما تتوفر المياه للمجتمع، تتوفر لهم الفرصة للعيش بصحة."
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid ""
+"When you give water you give motherhood. Women spend an average of six hours"
+" per day collecting water, carrying up to six gallons per trip. This takes "
+"time from work and caring for family. But when a community gets water, women"
+" and girls take charge of their own futures."
+msgstr ""
+"عندما توفر المياه، فأنت تمكن المرأة. تقضي النساء ما يقارب ست ساعات يومياً في"
+" إحضار المياه، وحمل ما يصل إلى ستة غالونات في كل رحلة. وهذا يستهلك وقتاً كان"
+" يجدر إنفاقه على العمل ورعاية الأسرة لكن عندما تتوفر المياه للمجتمع، تتمكن "
+"النساء والفتيات من رسم مستقبلهن بأنفسهن."
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.PaymentSuccess
+msgid "Your donation has been received successfully."
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:payment.acquirer,auth_msg:payment_dubaipay.payment_acquirer_dubaipay
+msgid "Your payment has been authorized."
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:payment.acquirer,cancel_msg:payment_dubaipay.payment_acquirer_dubaipay
+msgid "Your payment has been cancelled."
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:payment.acquirer,pending_msg:payment_dubaipay.payment_acquirer_dubaipay
+msgid ""
+"Your payment has been successfully processed but is waiting for approval."
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:payment.acquirer,done_msg:payment_dubaipay.payment_acquirer_dubaipay
+msgid "Your payment has been successfully processed. Thank you!"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "donate-footer"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "education"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "health"
+msgstr ""
+
+#. module: payment_dubaipay
+#: model_terms:ir.ui.view,arch_db:payment_dubaipay.WebsiteDonation
+msgid "women"
+msgstr ""

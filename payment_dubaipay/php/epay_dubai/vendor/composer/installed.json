@@ -1,0 +1,88 @@
+[
+    {
+        "name": "robrichards/wse-php",
+        "version": "2.0.3",
+        "version_normalized": "2.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/robrichards/wse-php.git",
+            "reference": "f705f0242ab5f9ea69570955d2ebc64a902b12eb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/robrichards/wse-php/zipball/f705f0242ab5f9ea69570955d2ebc64a902b12eb",
+            "reference": "f705f0242ab5f9ea69570955d2ebc64a902b12eb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">= 5.3",
+            "robrichards/xmlseclibs": ">=3.0.2"
+        },
+        "time": "2019-01-03T15:37:08+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "RobRichards\\WsePhp\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Rob Richards",
+                "role": "Main developer",
+                "homepage": "http://www.cdatazone.org/"
+            }
+        ],
+        "description": "Libraries for adding WS-* support to ext/soap in PHP.",
+        "homepage": "https://github.com/robrichards/wse-php",
+        "keywords": [
+            "WS-Security",
+            "soap",
+            "ws-addressing"
+        ]
+    },
+    {
+        "name": "robrichards/xmlseclibs",
+        "version": "3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/robrichards/xmlseclibs.git",
+            "reference": "406c68ac9124db033d079284b719958b829cb830"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/406c68ac9124db033d079284b719958b829cb830",
+            "reference": "406c68ac9124db033d079284b719958b829cb830",
+            "shasum": ""
+        },
+        "require": {
+            "ext-openssl": "*",
+            "php": ">= 5.4"
+        },
+        "time": "2018-11-15T11:59:02+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "RobRichards\\XMLSecLibs\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "A PHP library for XML Security",
+        "homepage": "https://github.com/robrichards/xmlseclibs",
+        "keywords": [
+            "security",
+            "signature",
+            "xml",
+            "xmldsig"
+        ]
+    }
+]

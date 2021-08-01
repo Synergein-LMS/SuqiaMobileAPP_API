@@ -1,0 +1,5 @@
+{
+    "require": {
+        "robrichards/wse-php": "^2.0"
+    }
+}

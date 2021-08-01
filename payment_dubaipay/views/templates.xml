@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="payment_frontend" inherit_id="website.assets_frontend">
+        <xpath expr="link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/payment_dubaipay/static/src/css/style.css" />
+        </xpath>
+        <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/payment_dubaipay/static/src/js/donation.js"></script>
+        </xpath>
+    </template>
+
+    <template id="PaymentSuccess" name="PaymentSuccess">
+        <t t-call="website.layout">
+            <t t-set="additional_title">Donation</t>
+             <div class="oe_structure"/>
+            <div id="wrap" class="oe_structure">
+                <div class="container pt-3">
+                        <h1>Thank you!</h1>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                    <div class="alert alert-success" role="status">
+                                        Your donation has been received successfully.
+                                    </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <t t-call="website.company_description"/>
+                            </div>
+                        </div>
+                </div>
+         </div>
+         </t>
+     </template>
+
+     <template id="PaymentFailed" name="PaymentFailed">
+        <t t-call="website.layout">
+            <t t-set="additional_title">Donation</t>
+             <div class="oe_structure"/>
+            <div id="wrap" class="oe_structure">
+                <div class="container pt-3">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="alert alert-danger" role="status">
+                                    Sorry, your payment transaction has been failed.
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <t t-call="website.company_description"/>
+                            </div>
+                        </div>
+            </div>
+         </div>
+         </t>
+     </template>
+
+
+   <template name="WebsiteDonation" t-name="payment_dubaipay.WebsiteDonation">
+  <t t-call="website.layout">
+    <t t-set="additional_title">Donation</t>
+    <div class="oe_structure"/>
+    <div id="wrap" class="oe_structure">
+      <section class="s_cover parallax pt96 s_parallax_no_overflow_hidden pb112 bg-black-25" data-scroll-background-ratio="0" data-name="Cover" style="background-image: none;">
+        <span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url(&quot;/web/image/557/donate_Banner.jpg&quot;); background-position: 55.58% 51.6%;"/>
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="s_title col-lg-5" data-name="Title">
+              <h1 class="s_title_thin cust-bannerhead">
+                DONATE
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pb0 pt0 cust-color" data-name="Title">
+        <div class="container cust-container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title pb0" style="text-align: left;">
+              <ul class="breadcrumb cust-breadcrumb">
+                <li>
+                  <a class="cust-margin" href="/">HOME</a>
+                </li>
+                <li>DONATE</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt32 pb32" data-name="Title" style="">
+        <div class="container">
+          <div class="row s_nb_column_fixed">
+            <div class="col-lg-12 s_title pt16 pb16" style="text-align: center;">
+              <h1 class="s_title_default">
+                <font style="font-size: 24px; color: rgba(121, 121, 121, 1);">Your donation will fund projects that bring access to clean, safe water for people in developing countries around the world.<br/></font>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- START: DONATION AMOUNT SECTION -->
+      <div class="container text-center payment_donation">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-6">
+                            <hr class="hr-text" data-content="ONE TIME DONATION" />
+                        </div>
+                    </div>
+                    <div class="row mb4 justify-content-md-center">
+                        <div class="col-md-10">
+                            <h2 class="text-muted">Help contribute a water project for a community in need.</h2>
+                        </div>
+                    </div>
+                    <form class="dubaipay_form">
+                        <input type='hidden' name='amount' t-att-value='amount'/>
+                    </form>
+                    <div class="row my-4 justify-content-md-center">
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title text-muted">Select The Amount You Want to donate</h5>
+                                    <form class="o_donation_form">
+                                        <div class="form-row">
+                                            <div class="col-md-6 px-4 py-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="form-group mb0">
+                                                            <h3 class="mb0">
+                                                                <input type="radio" name="donation_radio" id="donation_25" value="25" checked="checked"/>
+                                                                <label for="donation_25">
+                                                                    AED 25
+                                                                </label>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 px-4 py-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="form-group mb0">
+                                                            <h3 class="mb0">
+                                                                <input type="radio" name="donation_radio" id="donation_75" value="75"/>
+                                                                <label for="donation_75">
+                                                                    AED 75
+                                                                </label>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col-md-6 px-4 py-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="form-group mb0">
+                                                            <h3 class="mb0">
+                                                                <input type="radio" name="donation_radio" id="donation_150" value="150"/>
+                                                                <label for="donation_150">
+                                                                    AED 150
+                                                                </label>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 px-4 py-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="form-group mb0">
+                                                            <h3 class="mb0">
+                                                                <input type="radio" name="donation_radio" id="donation_250" value="250"/>
+                                                                <label for="donation_250">
+                                                                    AED 250
+                                                                </label>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col-md-6 px-4 py-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="form-group mb0">
+                                                            <h3 class="mb0">
+                                                                <input type="radio" name="donation_radio" id="donation_500" value="500"/>
+                                                                <label for="donation_500">
+                                                                    AED 500
+                                                                </label>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 px-4 py-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="form-group mb0">
+                                                            <h3 class="mb0">
+                                                                <input type="radio" name="donation_radio" id="donation_other_amount_radio" value=""/>
+                                                                <label for="donation_other_amount_radio">
+                                                                    Other Amount
+                                                                </label>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col-md-12 px-4 py-2">
+                                              
+                                          <input class="form-control" type="number" maxlength="6" placeholder="Enter Your Amount" id="donation_other_amount" pattern="[0-9]{1,6}" disabled="disabled" value="25"/>
+
+                                            </div>
+                                            <div class="col-sm-12 col-md-12 px-4 py-2 error-div hidden_error">
+                                                    <small id="amountHelp" class="text-danger">
+                                                      Please enter the amount
+                                                    </small>      
+                                            </div>
+                                        </div>
+                                        <div class="form-row donation_amount_text">
+                                            <div class="col-md-12 px-4 py-2 text-uppercase">
+                                                <h4 class="font-weight-light">
+                                                  <span class="donate_text">
+                                                    you are donating <span class="font-weight-bold">AED</span> <span class="font-weight-bold" id="donation_amount">0</span>
+                                                  </span>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col-md-12 px-4 pb-1">
+                                                <button type="submit" id="o_donation_form_pay" class="btn btn-lg btn-donate btn-primary w-100">Donate</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      <!-- END: DONATION AMOUNT SECTION -->
+      
+      <!-- START: SPONSOR A PROJECT SLIDER  -->
+      <section class="s_text_block pt32 pb32" data-name="Text block">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 s_title pt16 pb0" style="text-align: center;">
+              <h1 class="s_title_lines" style="font-weight: bold;">SPONSOR A PROJECT</h1>
+            </div>
+            <div class="col-lg-12 pb0 pt0">
+              <p style="text-align: center;">The following communities need your help! You can choose to sponsor an entire water project to either communities below:
+                          </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="myCarousel1597492916780" class="s_carousel carousel slide s_carousel_default container pointer-event" data-interval="10000" data-name="Carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel1597492916780" data-slide-to="0" class="cust-indicator active">
+            <br/>
+          </li>
+          <li data-target="#myCarousel1597492916780" data-slide-to="1" class="cust-indicator">
+            <br/>
+          </li>
+          <li data-target="#myCarousel1597492916780" data-slide-to="2" class="cust-indicator">
+            <br/>
+          </li>
+        </ol>
+        <div class="carousel-inner cust-partnerpage1">
+          <div class="carousel-item bg-white-75" style="" data-name="Slide">
+            <div class="container">
+              <div class="row content">
+                <div class="col-lg-6 sponsor-slider-right">
+                  <img src="/web/image/558/Benin.jpg" class="img img-fluid mx-auto" alt="Odoo • Image and Text" data-original-title="" title="" aria-describedby="tooltip617273"/>
+                </div>
+                <div class="col-lg-6 sponsor-slider-right">
+                    <div class="sponsor-text">
+                        <h2 style="font-weight: bold;">SPONSOR A PROJECT<br/></h2>
+                      <b>
+                                  </b>
+                      <p>
+                        <b class="sponsor-amount">
+                                      AED 6,315
+                                    </b>
+                        <br/>
+                      </p>
+                      <ul>
+                        <li>
+                          <p>Title: Water project in Benin</p>
+                        </li>
+                        <li>
+                          <p>Location: Benin</p>
+                        </li>
+                        <li>
+                          <p>Beneficiaries: 250 people</p>
+                        </li>
+                        <li>
+                          <p>Type of Solution: Surface Well<br/></p>
+                        </li>
+                      </ul>
+                      <div class="s_btn text-left pt16 pb16" data-name="Button">
+                        <a href="mailto:partners@suqia.ae" class="btn btn-outline-primary cust-hover" data-original-title="" title="" aria-describedby="tooltip977296">Sponsor This Project</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg-white-75 active" style="" data-name="Slide">
+            <div class="container">
+              <div class="row content">
+                <div class="col-lg-6">
+                  <img src="/web/image/559/Mali.jpg" class="img img-fluid mx-auto" alt="Odoo • Image and Text" data-original-title="" title="" aria-describedby="tooltip617273"/>
+                </div>
+                <div class="col-lg-6 sponsor-slider-right">
+                    <div class="sponsor-text">
+                        <h2 style="font-weight: bold;">SPONSOR A PROJECT<br/></h2>
+                          <b>
+                                      </b>
+                          <p>
+                            <b class="sponsor-amount">
+                                          AED 120,000
+                                        </b>
+                            <br/>
+                          </p>
+                          <ul>
+                            <li>
+                              <p>Title: Water project in Mali</p>
+                            </li>
+                            <li>
+                              <p>Location: Mali<br/></p>
+                            </li>
+                            <li>
+                              <p>Beneficiaries: 8,000 people</p>
+                            </li>
+                            <li>
+                              <p>Type of Solution: Artesian Well<br/></p>
+                            </li>
+                          </ul>
+                          <div class="s_btn text-left pt16 pb16" data-name="Button">
+                            <a href="mailto:partners@suqia.ae" class="btn btn-outline-primary cust-hover" data-original-title="" title="" aria-describedby="tooltip977296">Sponsor This Project</a>
+                          </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg-white-75" style="" data-name="Slide">
+            <div class="container">
+              <div class="row content">
+                <div class="col-lg-6">
+                  <img src="/web/image/560/Bangladesh.JPG" class="img img-fluid mx-auto" alt="Odoo • Image and Text" data-original-title="" title="" aria-describedby="tooltip617273"/>
+                </div>
+                <div class="col-lg-6 sponsor-slider-right">
+                    <div class="sponsor-text">
+                        <h2 style="font-weight: bold;">SPONSOR A PROJECT<br/></h2>
+                          <b>
+                                      </b>
+                          <p>
+                            <b class="sponsor-amount">
+                                          AED 52,000
+                                        </b>
+                            <br/>
+                          </p>
+                          <ul>
+                            <li>
+                              <p>Title: Water project in Bangladesh</p>
+                            </li>
+                            <li>
+                              <p>Location: Bangladesh</p>
+                            </li>
+                            <li>
+                              <p>Beneficiaries: 400 people</p>
+                            </li>
+                            <li>
+                              <p>Type of Solution: Electric Well with a Water Filter<br/></p>
+                            </li>
+                          </ul>
+                          <div class="s_btn text-left pt16 pb16" data-name="Button">
+                            <a href="mailto:partners@suqia.ae" class="btn btn-outline-primary cust-hover" data-original-title="" title="" aria-describedby="tooltip977296">Sponsor This Project</a>
+                          </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-control-prev" data-target="#myCarousel1597492916780" data-slide="prev" role="img" aria-label="Previous" title="Previous">
+          <span class="carousel-control-prev-icon"/>
+          <span class="sr-only o_default_snippet_text">Previous</span>
+        </div>
+        <div class="carousel-control-next" data-target="#myCarousel1597492916780" data-slide="next" role="img" aria-label="Next" title="Next">
+          <span class="carousel-control-next-icon"/>
+          <span class="sr-only o_default_snippet_text">Next</span>
+        </div>
+      </div>
+      <!-- END: SPONSOR A PROJECT SLIDER  -->
+      
+      <section id="other--waysTo--donate" class="">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 s_title pt16 pb0" style="text-align: center;">
+              <h1 class="s_title_lines cust-removelines cust-lines cust-applicationaward" style="font-weight: bold;">OTHER WAYS TO DONATE</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="sms">
+                <div class="top">
+                  <h4>
+                    <font style="color: rgb(121, 121, 121);">SMS</font>
+                  </h4>
+                  <p>To Donate SMS “SUQIA” (Etisalat &amp;amp; Du) for the UAE numbers listed below:</p>
+                </div>
+                <div class="donation-table">
+                  <div class="t_row t_title">
+                    <div class="left">
+                      <span>Donation Amount (AED)</span>
+                    </div>
+                    <div class="right">
+                      <span>Project Number</span>
+                    </div>
+                  </div>
+                  <div class="t_row ">
+                    <div class="left">
+                      <span>25</span>
+                    </div>
+                    <div class="right">
+                      <span>8025</span>
+                    </div>
+                  </div>
+                  <div class="t_row ">
+                    <div class="left">
+                      <span>75</span>
+                    </div>
+                    <div class="right">
+                      <span>5075</span>
+                    </div>
+                  </div>
+                  <div class="t_row ">
+                    <div class="left">
+                      <span>150</span>
+                    </div>
+                    <div class="right">
+                      <span>8150</span>
+                    </div>
+                  </div>
+                  <div class="t_row ">
+                    <div class="left">
+                      <span>250</span>
+                    </div>
+                    <div class="right">
+                      <span>8250</span>
+                    </div>
+                  </div>
+                  <div class="t_row ">
+                    <div class="left">
+                      <span>500</span>
+                    </div>
+                    <div class="right">
+                      <span>8500</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="wire">
+                <div class="top">
+                  <h4>
+                    <font style="color: rgb(121, 121, 121);">BANK TRANSFER</font>
+                  </h4>
+                  <p>Deposit into account name UAE Water Aid ( Suqia ) foundation</p>
+                </div>
+                <div class="donation-table">
+                  <div class="t_row t_title">
+                    <div class="left">
+                      <span>Bank Name</span>
+                    </div>
+                    <div class="right">
+                      <span>Account Number</span>
+                    </div>
+                  </div>
+                  <div class="t_row ">
+                    <div class="left">
+                      <span>Abu Dhabi Islamic Bank</span>
+                    </div>
+                    <div class="right">
+                      <span>IBAN No. AE43 0500 0000 0001 2001 107</span>
+                    </div>
+                  </div>
+                  <div class="t_row ">
+                    <div class="left">
+                      <span>Dubai Islamic Bank</span>
+                    </div>
+                    <div class="right">
+                      <span>IBAN No. AE58 0240 0165 2008 1625 701</span>
+                    </div>
+                  </div>
+                  <div class="t_row ">
+                    <div class="left">
+                      <span>Emirates Islamic Bank</span>
+                    </div>
+                    <div class="right">
+                      <span>IBAN No. AE46 0340 0037 0755 6269 301</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="content" class="why-water " style="background-color: rgb(244, 244, 244);">
+        <div class="container">
+          <div class="wids_2">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 s_title pt16 pb0" style="text-align: center;">
+                  <h1 class="s_title_lines cust-removelines cust-lines cust-applicationaward" style="font-weight: bold;line-height: inherit;">WHEN YOU GIVE YOU GIVE</h1><br/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="wid_2">
+                    <div class="img-wrap">
+                      <img src="/web/image/561/education_wid.png" alt="education"/>
+                    </div>
+                    <h5>
+                                                            A Brighter Future
+                                                        </h5>
+                    <p>
+                                            When you give water you give education. Children are often responsible for collecting water to help their families. This takes time from school and fulfilling their dreams. But when a community and a school gets water, kids have an opportunity for a brighter future and bigger dreams.
+                                        </p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="wid_2">
+                    <div class="img-wrap">
+                      <img src="/web/image/562/women_wid.png" alt="women"/>
+                    </div>
+                    <h5>
+                                                            Empowerment
+                                                        </h5>
+                    <p>
+                                            When you give water you give motherhood. Women spend an average of six hours per day collecting water, carrying up to six gallons per trip. This takes time from work and caring for family. But when a community gets water, women and girls take charge of their own futures.
+                                        </p>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="wid_2">
+                    <div class="img-wrap">
+                      <img src="/web/image/563/health_wid.png" alt="health"/>
+                    </div>
+                    <h5>
+                                                            A Better health
+                                                        </h5>
+                    <p>
+                                           When you give water you give health. Lack of safe water, sanitation and hygiene remains one of the world’s most urgent health issues. In developing countries, the chances of survival reduce in the absence of clean water and essential sanitation, especially for children. But when a community gets water, they get their health back.
+                                        </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="botMainBg donate noMargin">
+        <img src="/web/image/564/donate-footer.jpg" alt="donate-footer"/>
+      </section>
+    </div>
+  </t>
+</template>
+
+      
+  
+
+
+</odoo>
