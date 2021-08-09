@@ -147,35 +147,20 @@ class MobileAPI(http.Controller):
          error = 'Invalid Parameter or Error'
          return error_response(e, error,403)
 
+
    @http.route('/api/user_profile/', type='json',auth="public",csrf=False,website=True,web_content_api=True)
    def user_profile(self, **kw):
       try:
-         sudo_users = http.request.env["res.users"].sudo().browse(int(kw.get('uid')))
-         sudo_country = http.request.env["res.country"].with_context(lang=kw.get('lang')).sudo().search_read([])
-         sudo_state = http.request.env["res.country.state"].with_context(lang=kw.get('lang')).sudo().search_read([])
+         sudo_country = http.request.env["res.country"].sudo().search_read([])
+         sudo_state = http.request.env["res.country.state"].sudo().search_read([])
          countries = []
          states = []
          for cou in sudo_country:
             del cou['image']
             countries.append(cou)
          val = {}
-
          val['countries'] = countries
          val['states'] = sudo_state
-         user_details = {
-             "email":sudo_users.partner_id.email or "",
-                "phone":sudo_users.partner_id.phone or "",
-                "name":sudo_users.partner_id.name or "",
-                "street":sudo_users.partner_id.street or "",
-                "company_name":sudo_users.partner_id.company_name or "",
-                "city":sudo_users.partner_id.city or "",
-                "zip":sudo_users.partner_id.zip or "",
-                "country":str(sudo_users.partner_id.country_id.id) if sudo_users.partner_id.country_id else "",
-                "state":str(sudo_users.partner_id.state_id.id) if sudo_users.partner_id.state_id else "",
-                "vat_number":sudo_users.partner_id.vat or ""
-
-    }
-         val['user_details'] = user_details
          return success_response(val) 
       except Exception as e:
          error = 'Invalid Parameter or Error'
