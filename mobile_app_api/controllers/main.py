@@ -123,20 +123,22 @@ class MobileAPI(http.Controller):
       try:         
          sudo_users = http.request.env["res.users"].sudo().browse(int(kw.get('uid')))
          if sudo_users:
-            sudo_users.partner_id.email = kw.get('email')
-            sudo_users.partner_id.phone = kw.get('phone')
-            sudo_users.partner_id.name = kw.get('name')
-            sudo_users.partner_id.street = kw.get('street')
-            sudo_users.partner_id.company_name = kw.get('company_name')
-            sudo_users.partner_id.city = kw.get('city')
-            sudo_users.partner_id.zip = kw.get('zip')
-            sudo_users.partner_id.vat = kw.get('vat_number')
-            sudo_country = http.request.env["res.country"].sudo().search([('id','=',int(kw.get('country')))],limit=1)
-            sudo_state = http.request.env["res.country.state"].sudo().search([('id','=',int(kw.get('state')))],limit=1)
-            if sudo_country:
-               sudo_users.partner_id.country_id = sudo_country.id
-            if sudo_state:
-               sudo_users.partner_id.state_id = sudo_state.id
+            sudo_users.partner_id.email = kw.get('email') or ""
+            sudo_users.partner_id.phone = kw.get('phone') or ""
+            sudo_users.partner_id.name = kw.get('name') or ""
+            sudo_users.partner_id.street = kw.get('street') or ""
+            sudo_users.partner_id.company_name = kw.get('company_name') or ""
+            sudo_users.partner_id.city = kw.get('city') or ""
+            sudo_users.partner_id.zip = kw.get('zip') or ""
+            sudo_users.partner_id.vat = kw.get('vat_number') or ""
+            sudo_country = False
+            sudo_state = False
+            if kw.get('country'):
+               sudo_country = http.request.env["res.country"].sudo().search([('id','=',int(kw.get('country')))],limit=1)
+            sudo_users.partner_id.country_id = sudo_country.id if sudo_country else False
+            if kw.get('state'):
+               sudo_state = http.request.env["res.country.state"].sudo().search([('id','=',int(kw.get('state')))],limit=1)
+            sudo_users.partner_id.state_id = sudo_state.id if sudo_state else False
          else:
             error = 'Invalid User ID'
             return error_response(e, error,403)            
@@ -148,16 +150,32 @@ class MobileAPI(http.Controller):
    @http.route('/api/user_profile/', type='json',auth="public",csrf=False,website=True,web_content_api=True)
    def user_profile(self, **kw):
       try:
-         sudo_country = http.request.env["res.country"].sudo().search_read([])
-         sudo_state = http.request.env["res.country.state"].sudo().search_read([])
+         sudo_users = http.request.env["res.users"].sudo().browse(int(kw.get('uid')))
+         sudo_country = http.request.env["res.country"].with_context(lang=kw.get('lang')).sudo().search_read([])
+         sudo_state = http.request.env["res.country.state"].with_context(lang=kw.get('lang')).sudo().search_read([])
          countries = []
          states = []
          for cou in sudo_country:
             del cou['image']
             countries.append(cou)
          val = {}
+
          val['countries'] = countries
          val['states'] = sudo_state
+         user_details = {
+             "email":sudo_users.partner_id.email or "",
+                "phone":sudo_users.partner_id.phone or "",
+                "name":sudo_users.partner_id.name or "",
+                "street":sudo_users.partner_id.street or "",
+                "company_name":sudo_users.partner_id.company_name or "",
+                "city":sudo_users.partner_id.city or "",
+                "zip":sudo_users.partner_id.zip or "",
+                "country":str(sudo_users.partner_id.country_id.id) if sudo_users.partner_id.country_id else "",
+                "state":str(sudo_users.partner_id.state_id.id) if sudo_users.partner_id.state_id else "",
+                "vat_number":sudo_users.partner_id.vat or ""
+
+    }
+         val['user_details'] = user_details
          return success_response(val) 
       except Exception as e:
          error = 'Invalid Parameter or Error'
