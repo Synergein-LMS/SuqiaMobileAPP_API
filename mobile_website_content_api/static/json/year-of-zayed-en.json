@@ -1,0 +1,59 @@
+{
+    "data": {
+      "page_id": "13",
+      "sub_page":true,
+      "page_title": "YEAR OF ZAYED | INITIATIVES",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+  
+
+        "initiatives":
+        {
+        "list_content":  [
+         
+            {
+              "list_content_id":1,
+              "img": "/mobile_website_content_api/static/images/Year_of_Zayed_initiatives/Ellipse82x.png",
+              "title":"100 VOLUNTEERS INITIATIVE",
+              "content":"This initiative encouraged and promoted a culture of volunteerism and humanitarian work among DEWA’s employees and youth.More than 100 volunteers participated in our initiatives and activities during 2018."
+            
+            },
+            {  "list_content_id":2,
+                "title":"100 WATER PROJECTS",
+                "img": "/mobile_website_content_api/static/images/Year_of_Zayed_initiatives/Ellipse82x-1.png",
+                "content":"Suqia implemented 100 water projects that helped serve more than 125,000 people in 12 countries with safe and clean water."
+              
+            },
+            {
+                "list_content_id":3,
+                "title":"100 WATER ENDOWMENTS",
+                "img": "/mobile_website_content_api/static/images/Year_of_Zayed_initiatives/Ellipse82x-2.png",
+                "content":"Through this initiative, we provided 100 water cooler units in various labour camps across the UAE."
+              
+            },
+            {
+                "list_content_id":4,
+                "title":"100 LETTERS TO ZAYED",
+                "img": "/mobile_website_content_api/static/images/Year_of_Zayed_initiatives/Ellipse82x-3.png",
+                "content":"A compassionate initiative that collected heart-warming letters addressed to the late Sheikh Zayed from Suqia’s volunteers, DEWA employees, community members, school students and beneficiaries from Suqia’s projects."
+              
+            },
+            {
+                "list_content_id":5,
+                "title":"INTERNATIONAL INITIATIVES",
+                "img": "/mobile_website_content_api/static/images/Year_of_Zayed_initiatives/Ellipse82x-4.png",
+                "content":"Through this initiative, we organised two international voluntary field visits to Uganda and Upper Egypt in cooperation with our sister entity, the Mohammed bin Rashid Al Maktoum Charity and Humanitarian Establishment (MBRHC) and DEWA to implement sustainable water projects that served the needs of communities in Uganda and Upper Egypt."
+              
+            },
+             {
+                "list_content_id":6,
+                "title":"SUQIA ZAYED",
+                "img": "/mobile_website_content_api/static/images/Year_of_Zayed_initiatives/Ellipse82x-5.png",
+                "content":"During the Holy Month of Ramadan, Suqia distributed more than 8 million water cups for Ramadan Iftar tents and mosques in collaboration with 15 charity organisations and associations across the UAE. Moreover, the initiative extended internationally for the first time to 13 countries, in collaboration with MBRHC. These countries included Uganda, Tajikistan,Chad, Egypt, Brazil, Canada, the USA, Palestine, the Philippines,Tunisia, Jordan, Ukraine and Bangladesh."
+              
+            }
+          ]
+        }
+      }
+    }
+  }

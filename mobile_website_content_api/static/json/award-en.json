@@ -1,0 +1,84 @@
+{
+    "data": {
+      "page_id": "12",
+      "sub_page":false,
+      "page_title": "AWARD",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+      "content": "Suqia’s goal is not limited to the provision of potable water to those in need. We also identify how innovative and sustainable technologies can be part of the solution to the global water crisis. We understand that the scale of the water crisis",
+       "banner":"/mobile_website_content_api/static/images/award/awards-header-bg.jpg",
+    "award":
+       [  
+         
+            { "award_id":1,
+              "title": "3rd CYCLE ANNOUNCEMENT",
+              "icon":"/mobile_website_content_api/static/images/award/3rd_cycle_announcement.png",
+              "list_content":
+              ["In the 1st and 2nd cycles of the award, 20 applicants, including individuals, pioneering organisations, and research centres, were awarded for their innovative models that produce clean water using solar power. While the two previous cycles were successful, Suqia UAE is pleased to announce the expansion of the scope of the award to include new technologies that produce, distribute, store, monitor, desalinate and purify water using renewable energy.",
+            "For the 3rd cycle, we have introduced a new category, the ‘Innovative Crisis Solutions Award,’ to recognise innovations that can provide relief within the most critical 48 hours after internationally declared emergency situations. We believe that rapid access to safe drinking water becomes a crucial element for survival in crises and natural disasters."
+            
+            ]
+
+            
+            },
+            {   "award_id":2,
+                "title": "ABOUT THE AWARD",
+              "icon":"/mobile_website_content_api/static/images/award/above_award_192.png",
+                "list_content":[
+
+"Suqia’s goal is not limited to the provision of potable water to those in need. We also identify how innovative and sustainable technologies can be part of the solution to the global water crisis. We understand that the scale of the water crisis demands different approaches that extend beyond giving water. This is why, in line with the UAE’s goal to become a knowledge-based economy with a strong focus on technology, R&D and innovation, HH Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai, launched a USD1 million global award to find sustainable solutions to water scarcity.",
+"The Mohammed bin Rashid Al Maktoum Global Water Award supports research and development of new and innovative technologies that produce, distribute, store, monitor, desalinate and purify water using renewable energy to support the global position of the UAE in developing solutions for challenges that are faced by poverty- and disaster-stricken communities worldwide."
+
+                ]
+              
+              },
+              {
+                  "award_id":3,
+                  "title":"AWARD VISION",
+              "icon":"/mobile_website_content_api/static/images/award/award-vision.png",
+
+                  "list_content":[
+
+"Water is a fundamental human need and a driver for sustainable growth, yet water scarcity affects more than 40% of the global population. These numbers are even projected to rise, especially for communities in rural and poor urban areas. Providing access to potable water gives hope, increases happiness and improves life by enabling children to thrive.",
+"International organisations have joined efforts to find solutions to address water scarcity, from establishing humanitarian aid and awareness campaigns, to setting sustainable goals worldwide to achieve water security. The UAE has established a global position in actively finding real solutions to ensure access to safe drinking water.",
+"At Suqia, we believe that innovation and sustainability can be part of the solution to the global water crisis and help overcome the challenges faced in communities in need."
+
+                  ]
+              }
+             
+            
+            
+          ],
+       "award_categories":{
+
+            "title":"AWARD CATEGORIES",
+            "content":"The Award is comprised of 4 main categories that target pioneering organisations, research centres, individuals, educational institutions, and innovators from all around the world to motivate participants ",
+            "categories":["INNOVATIVE PROJECTS AWARD","INNOVATIVE INDIVIDUAL AWARD","INNOVATIVE RESEARCH & DEVELOPMENT AWARD", "INNOVATIVE CRISIS SOLUTIONS AWARD"],
+            "img":["/mobile_website_content_api/static/images/award/award_cat1.png","/mobile_website_content_api/static/images/award/award_cat2.png","/mobile_website_content_api/static/images/award/award_cat3.png","/mobile_website_content_api/static/images/award/Innovative-Crisis-Solutions-Award-English.png"]
+        },
+        "meet_out_winners":{
+
+            "title":"MEET OUR WINNERS",
+            "content":"The second cycle of the Mohammed bin Rashid Al Maktoum Global Water Award received overwhelming positive response. On January 29, 2020, ten applicants from eight different countries were awarded for their innovative solutions for water desalination and purification.",
+            "winners":[
+
+                "/mobile_website_content_api/static/images/award/C2%2520Cards%25201.JPG",
+                "/mobile_website_content_api/static/images/award/C2%2520Cards%252002.JPG",
+                "/mobile_website_content_api/static/images/award/C2%2520Cards%252003.JPG",
+                "/mobile_website_content_api/static/images/award/C2%2520Cards%252004.JPG",
+                "/mobile_website_content_api/static/images/award/C2%2520Cards%252005.JPG",
+                "/mobile_website_content_api/static/images/award/C2%2520Cards%252006.JPG",
+                "/mobile_website_content_api/static/images/award/C2%2520Cards%252007.JPG",
+                "/mobile_website_content_api/static/images/award/C2%2520Cards%252008.JPG",
+                "/mobile_website_content_api/static/images/award/C2%2520Cards%252009.JPG",
+                "/mobile_website_content_api/static/images/award/C2%2520Cards%252010.JPG"
+
+
+            ]
+        }
+   
+        
+      }
+    }
+  }
+

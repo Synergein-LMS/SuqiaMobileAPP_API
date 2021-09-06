@@ -1,0 +1,52 @@
+{
+    "data": {
+      "page_id": "5",
+      "sub_page": true,
+      "page_title": "OUR PROGRAMMES",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+        "banner": [
+          {
+            "banner_id": 1,
+            "img":"/mobile_website_content_api/static/images/Our_programmes/our-programes-title.jpg",
+            "title": "OUR PROGRAMMES",
+            "content":"The scale of the water crisis demands different approaches and efforts. We believe that tackling the water crisis starts by empowering the youth, spreading awareness, engaging with the society and investing in simple solutions.",
+            "desc": "Learn more about our programmes and their impact below:"
+          }
+        ],
+        "programmes":[
+          {
+            "card_id":1,
+            "title":"ENGAGING YOUTH",
+            "img":"/mobile_website_content_api/static/images/Our_programmes/our-prog-1.jpg",
+            "content":"The scale of the water crisis demands global efforts and a different approaches that extend beyond giving water. While 2.6 billion people have gained access to improved drinking water sources since 1990, yet 844 million people remain without access to clean water. At Suqia, we believe that investing in our future generation is one approach to tackle this. By educating and empowering our youth, we embed the values of giving for futures to come."
+            
+          },
+          
+          {
+            "card_id":2,
+            "title":"HANDS IN THE FIELD",
+            "img":"/mobile_website_content_api/static/images/Our_programmes/our-prog-3.jpg",
+            "content":"With the help of our implementing partners, we have granted Dubai Electricity and Water Authority employees’ the opportunity to join us on our trips and witness our work in the field, as we help to provide clean water. The time spent in the field gives our volunteers a close and personal view that highlights the importance of clean water and its ability to drive sustainable growth."
+            
+          },
+     
+          {
+            "card_id":3,
+            "title":"SIMPLE IMMEDIATE SOLUTIONS",
+            "img":"/mobile_website_content_api/static/images/Our_programmes/our-prog-4.jpg",
+            "content":"The scale of the water crisis demands many different approaches that extend beyond water projects. Sometimes, immediate, simple, innovative and sustainable solutions can leave a greater impact."
+            
+          },
+          {
+            "card_id":4,
+            "title":"YEAR OF ZAYED INITIATIVES",
+            "img":"/mobile_website_content_api/static/images/Our_programmes/our-prog-2.jpg",
+            "content":"In the Year of Zayed 2018, Suqia was committed carrying forward the philanthropic legacy of Sheikh Zayed, founder of the UAE, by fostering the UAE’s pioneering and global position in pursuing humanitarian initiatives. Suqia is implementing 6 initiatives serving its mission while embedding the themes of sustainability and leadership of the Year of Zayed, and more specifically, marking 100 years since the birth of the founding father of the UAE."
+            
+          }
+        ]
+          
+      }
+    }
+  }

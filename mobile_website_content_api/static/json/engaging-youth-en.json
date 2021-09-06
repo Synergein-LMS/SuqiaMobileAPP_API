@@ -1,0 +1,86 @@
+{
+    "data": {
+      "page_id": "9",
+      "sub_page":true,
+      "page_title": "ENGAGING YOUTH",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+  
+        "banner":[
+          {
+            
+            "title": "ENGAGING YOUTH",
+            "desc": "GIVING FOR THE FUTURE",
+            "content": "The scale of the water crisis demands global efforts and many different approaches that extend beyond giving water. Despite 2.6 billion people gaining access to improved drinking water sources since 1990, there are still 663 million people without access to clean water. At Suqia, we believe investing in our future generation is one approach to tackle this. By educating and empowering our youth, we embed the values of giving for future generations.",
+            "content_2":"Water is a basic human right and a driver for sustainable growth and development. It is important that our future generations are aware that water is critically linked with food security, agriculture, education, climate and gender equality. People cannot develop and prosper if they are forced to spend hours each day to find and transport clean water, lack of clean water and sanitation lock people in a cycle of poverty. It is important to us to build a generation that is aware of the value of water and how it drives people forward."
+          }
+        ],
+        "different_programmes":
+        {
+        "title":"At Suqia, our different programmes and initiatives aim to:",
+        "list_content":  [
+         
+            {
+              "list_content_id":1,
+              "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-01.svg",
+              "content":"Spread awareness on the global water crisis"
+            
+            },
+            {  "list_content_id":2,
+
+                "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-02.svg",
+                "content":"Educate youth to become mindful of their water consumption and behaviour"
+              
+            },
+            {
+                "list_content_id":3,
+
+                "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-03.svg",
+                "content":"Empower youth and unleash their creativity to design a better world using new technologies"
+              
+            },
+            {
+                "list_content_id":4,
+
+                "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-04.svg",
+                "content":"Embed the concepts of innovation, sustainability and giving"
+              
+            },
+            {
+                "list_content_id":5,
+
+                "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-05.svg",
+                "content":"Inspire future generations and help shape leaders of tomorrow in the field of humanitarian aid"
+              
+            }
+            
+            
+          ]
+        
+        
+        },
+        "water_challenge":{"title":"The water challenge will continue to persist, and together with a conscious generation, we will be able to address the global water crisis and create a better future where all people have access to clean drinking water.",
+            "programee":[{"programee_id":1,
+                          "title":"WATER: THE GLOBAL PASSPORT PROGRAMME",
+                          "img":"/mobile_website_content_api/static/images/engaging_youth/eyouth-1.png",
+                          "content":"In collaboration with DEWA and Surge, we launched “Water: The Global Passport”, an interactive educational water conservation awareness programme where students learn about the water crisis and ways to conserve their local water resources through hands-on educational games and activities. Each activity approaches the water crisis in different ways and fully engages the children."
+                            },
+
+                        {"programee_id":2,
+                            "title":"UNLOCKING POTENTIALS WITH THE CARBON AMBASSADOR PROGRAMME",
+                          "img":"/mobile_website_content_api/static/images/engaging_youth/eyouth-2.png",
+                          "content":"In collaboration with DEWA and Surge, we launched “Water: The Global Passport”, an interactive educational water conservation awareness programme where students learn about the water crisis and ways to conserve their local water resources through hands-on educational games and activities. Each activity approaches the water crisis in different ways and fully engages the children."
+            },{"programee_id":3,
+                "title":"SOLVING WATER CHALLENGES",
+                          "img":"/mobile_website_content_api/static/images/engaging_youth/eyouth-3.png",
+                          "content":"Under the theme: Solving Water Challenges , Suqia was key sponsor at the first Global Children's Designathon (GCD) event in Dubai in November 2017. This one-day event brought children together to design and develop solutions and innovative concepts around water issues."
+            }]
+
+        } 
+      
+   
+        
+      }
+    }
+  }
+ 

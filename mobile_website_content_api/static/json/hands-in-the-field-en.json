@@ -1,0 +1,51 @@
+{
+    "data": {
+      "page_id": "10",
+      "sub_page":true,
+      "page_title": "HANDS IN THE FIELD",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+  
+        "banner":[
+          {
+            
+            "title": "HANDS IN THE FIELD",
+            "desc": "EMBEDDING THE VALUES OF GIVING",
+            "content":"Below, you will find some of the trips that our volunteers participated in, through our joint volunteering programme with the Mohammed bin Rashid Al Maktoum Humanitarian and Charity Establishment (MBRHC). Our programmes encourage a culture of volunteerism and humanitarian work from the UAE to the world."
+          }
+        ],
+        "volunteers":
+       [
+         
+            { "volunteers_id":1,
+              "title": "EGYPT 2018: ‘AYADI ZAYED’",
+              "content":"In September 2018 and in collaboration with MBRHC, we organised “Ayadi Zayed” volunteering trip to Upper Egypt. Eight volunteers from DEWA participated and we visited the Governorate of Qena and engaged in several humanitarian, social and operational projects.",
+              "img":"/mobile_website_content_api/static/images/Hands_in_the_field/Ellipse_82.png"
+            
+            },
+            {   "volunteers_id":2,
+                "title": "UGANDA 2018",
+                "content":"In June 2018, in collaboration with our sister entity, MBRHC , we sent 11 volunteers to Kabigi village in Uganda to work on implementing water projects, renovating two schools and provide the community with basic needs.",
+              "img":"/mobile_website_content_api/static/images/Hands_in_the_field/Ellipse-1.png"
+              
+              },
+              {
+                "volunteers_id":3,
+                "title": "UPPER EGYPT 2017: ‘REHLAT ALKHAIR’",
+                "content":"In December 2017 and in line with the Year of Giving, we sent 12 volunteers to Upper Egypt for eight days. While there, the team worked on the installation of clean water distribution networks in the governorates of Qena, Aswan and Luxor. The trip also included several operational projects by MBRHC.",
+              "img":"/mobile_website_content_api/static/images/Hands_in_the_field/Ellipse-2.png"
+              
+              },
+              {
+                "volunteers_id":4,
+                "title": "TAJIKISTAN 2017: MESSAGE FOR HOPE",
+                "content":"In collaboration with DEWA and MBRHC, we sent 14 volunteers to participate in the ‘Risalat Khair’ trip to the Republic of Tajikistan for the first time. The volunteers launched a sustainable development project in Kaznok village to provide drinking water to over 45,000 people.",
+              "img":"/mobile_website_content_api/static/images/Hands_in_the_field/Ellipse-3.png"
+              
+              }
+            
+          ]
+        
+      }
+    }
+  }

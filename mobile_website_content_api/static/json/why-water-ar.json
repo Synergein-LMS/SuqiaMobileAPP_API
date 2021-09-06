@@ -1,0 +1,96 @@
+{
+    "data": {
+      "page_id": "3",
+      "sub_page": true,
+      "page_title": "مذا المياه",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+        "banner": [
+          {
+            "banner_id": 1,
+            "title": "844 مليون شخص",
+            "desc": "حول العالم دون الوصول إلى مياه نظيفة",
+            "content": "تعد المياه حاجة إنسانيّة أساسيّة، وعاملاً رئيسياً لدفع عملية النمو المستدام ، ومع ذلك فإن ندرة المياه تؤثّر على أكثر من 40% من سكّان العالم، ومن المتوقّع أن تستمر النسبة في الارتفاع. وفي حين أنه تمكن 2,6 مليار شخص من الحصول على فرص أفضل للوصول إلى مصادر مياه الشرب منذ عام 1990، إلا أنّه لا يزال هناك 844 مليون شخص يعانون من نقص مصادر المياه حتى الآن.",
+            "banner_image":"/mobile_website_content_api/static/images/Why_water/Rectangle_672.png",
+            "img": "/mobile_website_content_api/static/images/Why_water/Rectangle_252.png"
+          }
+        ],
+        "facts": [
+          {
+            "facts_id": 1,
+            "title": "حقائق",
+            "desc": "قد تبدو الإحصائيات صادمة. ولكننا نؤمن أننا نستطيع تجدي هذه الصعوبات  بفضل المتبرعين، وشركائنا المنفذين. وبمساعدتهم، استطعنا مساعدة ملايين الأشخاص في الحصول على مياه شرب نظيفة وآمنة في أكثر المناطق جفافاً وقسوة حول العالم.",
+            "content": "",
+            "img": ""
+          }
+        ],
+        "fact_widgets": [
+          {
+            "fact_widget_id": 1,
+            "title": "31%",
+            "desc": "قد تبدو الإحصائيات صادمة. ولكننا نؤمن أننا نستطيع تجدي هذه الصعوبات  بفضل المتبرعين، وشركائنا المنفذين. وبمساعدتهم، استطعنا مساعدة ملايين الأشخاص في الحصول على مياه شرب نظيفة وآمنة في أكثر المناطق جفافاً وقسوة حول العالم..",
+            "img": "/mobile_website_content_api/static/images/Why_water/31.png",
+            "content": "اليونيسف، تعزيز توفير المياه، والصرف الصحي في الإشراف على المدارس، 2015"
+          },
+          {
+            "fact_widget_id": 2,
+            "title": "2.3B",
+            "desc": "2.3مليار شخص ليس لديهم دورات مياه لائقة..",
+            "img": "/mobile_website_content_api/static/images/Why_water/2.3B.png",
+            "content": "(تقرير عام 2017 لبرنامج الرصد المشترك بين منظمة الصحة العالمية، واليونيسف.)"
+          },
+          {
+            "fact_widget_id": 3,
+            "title": "2025",
+            "desc": "بحلول عام 2025، سيعيش نصف سكان العالم في مناطق تعاني من شح المياه.",
+            "img": "/mobile_website_content_api/static/images/Why_water/2025.png",
+            "content": ""
+          },
+          {
+            "fact_widget_id": 4,
+            "title": "1",
+            "desc": "في كل دقيقة، يموت طفل رضيع بسبب العدوى الناجمة عن نقص وجود المياه النقية، والبيئة النظيفة.",
+            "img": "/mobile_website_content_api/static/images/Why_water/1.png",
+            "content": "(منظمة الصحة العالمية، 2015)"
+          }
+        ],
+        "banner_clean_water_id":[{
+            "banner_id": 1,
+            "title": "المياه النظيفة تُغير كل شيء ",
+            "desc": "",
+            "content": "",
+            "img": "/mobile_website_content_api/static/images/Why_water/Rectangle_122.png"
+        }],
+        "together": [
+          {
+            "facts_id": 1,
+            "title": "معاً، يمكننا توفير المياه للجميع",
+            "desc": "",
+            "content": "",
+            "img": ""
+          }
+        ],
+        "together_widget": [
+          {
+            "together_widget_id": 1,
+            "title": "+1000مشروع",
+            "desc": "من خلال التعاون مع شركائنا، نفذنا أكثر من 1000 مشروع في 36 دولة.",
+            "img": "/mobile_website_content_api/static/images/Why_water/Ellipse82.png"
+          },
+          {
+            "together_widget_id": 2,
+            "title": "13 مليون شخص",
+            "desc": "منذ عام 2015، نجحنا في توفير المياه النظيفة والنقية لأكثر من 13 مليون شخص.",
+            "img": "/mobile_website_content_api/static/images/Why_water/Ellipse82-1.png"
+          },
+          {
+            "together_widget_id": 3,
+            "title": "البحث و التطوير",
+            "desc": "نعمل على إيجاد حلول مبتكرة ومستدامة للمياه من خلال جهود البحث والتطوير للقضاء على أزمة المياه.",
+            "img": "/mobile_website_content_api/static/images/Why_water/Ellipse82-2.png"
+          }
+        ]
+        
+      }
+    }
+  }

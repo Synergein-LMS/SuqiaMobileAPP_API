@@ -1,0 +1,92 @@
+{
+    "data": {
+      "page_id": "12",
+      "sub_page":true,
+      "page_title": "حلولنا  ",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+  
+        "banner":[
+          {
+            
+            "title": "حلولنا ",
+            "img":"/mobile_website_content_api/static/images/Our_solutions/hands-field-title.png",
+            "des":"كيف نقدم المساعدة  ",
+            "content":"نحرص دوماً على العمل مع شركاء يتفقون معنا في الرؤية والشغف لخدمة المجتمعات المحتاجة للمياه الصالحة للشرب. فأمامنا مهمة علينا إنجازها للقضاء على أزمة المياه، ولقد تمكنّا من خلال الشراكات المتعددة من إنجاز أكثر من 1000 مشروع ساعد على توفير المياه النظيفة للملايين. فقبل تنفيذ مشروع ما، نحرص دائماً على تقييم احتياجات المجتمع وظروفه، و نأخذ بعين الاعتبار حجم المجتمع، وكثافته السكانية، وتوافر الموارد المائية و جودتها و تضاريس المنطقة و مناخها؛ وذلك لتحديد أفضل الحلول والتقنيات اللازمة لتوفير مياه شرب آمنة. "
+          }
+        ],
+        "more_about_solutions":
+        {
+        "title":"يمكنك قراءة المزيد من المعلومات عن الحلول التي ننفذها أدناه: ",
+        "list_content":  [
+         
+            {
+              "list_content_id":1,
+              "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/water-purification-station-icon.png",
+              "title":"محطات تنقية المياه ",
+              "content":"ننشئ محطات تنقية لإزالة الشوائب من المياه الملوثة. وتُستخدم بعد تنقيتها للشرب والطهي والري. "
+            
+            },
+            {  "list_content_id":2,
+                "title":"محطات المياه ",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/water-station-icon.png",
+                "content":"نقوم بإنشاء محطات مياه لضخ وترشيح المياه من البحيرات والأنهار والموارد المائية الأخرى. ويمكن لهذه المحطات أن تسحب المياه من الآبار الموجودة، مشكّلةً بذلك أنظمة متكاملة يتم خلالها ضخ المياه إلى السطح، وترشيحها وتخزينها بصورة آمنة في صهاريج تخزين أو توزيعها إلى المستهلكين. "
+              
+            },
+            {
+                "list_content_id":3,
+                "title":"الآبار الارتوازية ",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/artesian-well-icon.png",
+                "content":"نحفر آباراً ارتوازية لاستخراج مياه شرب نظيفة من الطبقات الصخرية المائية أو الخزانات الجوفية الواقعة على أعماق تزيد عن 100 قدم تحت سطح الأرض. و يعتبر هذا النوع من الآبار الأكثر تنفيذاً نظرًا لأنه أقل عرضة للجفاف، وقابل للتكيف مع الظروف البيئية لأغلب الدول. "
+              
+            },
+            {
+                "list_content_id":4,
+                "title":"الآبار السطحية ",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/surface-well-icon.png",
+                "content":"نلجأ إلى حفر الآبار السطحية للوصول إلى المياه الجوفية من أعماق قريبة نسبيًا من مستوى سطح الأرض (25 إلى 30 قدماً تحت سطح الأرض)."
+              
+            },
+            {
+                "list_content_id":5,
+                "title":"الينابيع الجبلية",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/mountain-spring-icon.png",
+                "content":"في المناطق الجبلية، نقوم باستخراج المياه العذبة من الينابيع الجبلية، ويتم توزيعها من خلال شبكات أنابيب وصولاً إلى سكان القرى القريبة."
+              
+            },
+             {
+                "list_content_id":6,
+                "title":"وحدات تبريد وتسخين المياه", 
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/water-cooler-heater-icon.png",
+                "content":"في المناطق ذات الظروف المناخية القاسية، نقوم بتركيب وحدات تبريد وتسخين مياه لتنظيم درجة حرارة المياه قبل توزيعها."
+              
+            },
+            {
+                "list_content_id":7,
+                "title":"المساعدات الخيرية ",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/charitable-aid-icon.png",
+                "content":"نستجيب لاحتياجات المجتمعات طوال العام، سواءً محليًا في دولة الإمارات العربية المتحدة أو عالميًا. حيث نقوم في كل عام بتوزيع المياه المعبأة في جميع أنحاء الإمارات و العالم خلال شهر رمضان الفضيل بالتعاون مع شركائنا. كما نقوم بهذا النشاط أيضاً أثناء الأزمات الطارئة و الكوارث. "
+              
+            },
+            {
+                "list_content_id":8,
+                "title":"شبكات توزيع المياه ",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/water-distribution-network-icon.png",
+                "content":"نهدف من خلال مشاريعنا تعميم الفائدة على أكبر عدد ممكن من الناس. حيث ننشئ شبكات توزيع مياه تنقل المياه النظيفة من مصادرها أو نقاط التنقية إلى القرى المجاورة."
+              
+            },
+             {
+                "list_content_id":9,
+                "title":"مرافق الصرف الصحي",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/sanitation-facility-icon.png",
+                "content":"ندرك أن النظافة والصحة هي أهم عوامل التنمية ولا يمكن إغفالها. لذلك، ننشئ مرافق جديدة ومطوّرة للصرف الصحي ودورات مياه للحفاظ على نظافة البيئة وسلامتها؛ ما يؤدي بدوره إلى خفض معدل الوفيات وانتشار الأمراض، وبخاصة بين الأطفال والرضع كونهم أكثر عرضة لهذه الأمراض."
+              
+            }
+                
+          ]
+        
+        }
+      
+      }
+    }
+  }

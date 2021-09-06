@@ -1,0 +1,205 @@
+{
+    "data": {
+      "page_id": "19",
+      "sub_page": true,
+      "page_title": "MEET THE WINNERS",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+        "banner": {
+          "img": "/mobile_website_content_api/static/images/Meet_the_winners/awards-header-bg.jpg",
+          "title": "MEET THE WINNERS",
+          "content": "Sheikh Maktoum bin Mohammed Al Maktoum, Deputy Ruler of Dubai, awarded 10 candidates from 8 different countries who were selected for their innovative solutions for water desalination and purification.",
+          "desc": ""
+        },
+        "winners": [
+          { 
+            "innovative_projects_award": {
+                "tab_title":"INNOVATIVE PROJECTS AWARD",
+               "title":"Small Project", 
+                "cycle_1": [
+                    {
+                      "img": "/mobile_website_content_api/static/images/Meet_the_winners/12202704201720Saif1.JPG",
+                      "rank": "1ST PLACE",
+                      "org": "Elemental Water Makers",
+                      "country": "Holland"
+                    },
+                    {
+                        "img": "/mobile_website_content_api/static/images/Meet_the_winners/11%252027042017%2520Saif1.JPG",
+                        "rank": "2ND PLACE",
+                        "org": "Temak S.A.",
+                        "country": "Greece"
+                      },
+                      {
+                        "img": "/mobile_website_content_api/static/images/Meet_the_winners/10%252027042017%2520Saif1.JPG",
+                        "rank": "3RD PLACE",
+                        "org": "Solar Water Solutions and P7 Global",
+                        "country": "Finland and UAE"
+                      }
+                      
+
+                ],
+              "cycle_2": [
+                {
+                  "img": "/mobile_website_content_api/static/images/Meet_the_winners/Give%2520Power%2520-%2520Hayden.jpg",
+                  "rank": "1ST PLACE",
+                  "org": "GivePower Foundation",
+                  "country": "USA"
+                },
+                {
+                    "img": "/mobile_website_content_api/static/images/Meet_the_winners/Boreal%2520Light%2520%2520Dr%2520Hameed.jpg",
+                    "rank": "2ND PLACE",
+                    "org": "Boreal Light GmbH.",
+                    "country": "Germany"
+                  },
+
+                  {
+                    "img": "/mobile_website_content_api/static/images/Meet_the_winners/IBV%2520and%2520Zero%2520Mass%2520-%2520Sam.jpg",
+                    "rank": "3RD PLACE",
+                    "org": "International Business Ventures (IBV) and Zero Mass Water, Inc",
+                    "country": "UAE and USA"
+                  }
+              ]
+            },
+
+
+            "innovation_research_development_award": {
+                "tab_title":"INNOVATIVE RESEARCH & DEVELOPMENT AWARD",
+                "title":"National Institutions",
+                "cycle_1":[
+                    {
+                        "img": "/mobile_website_content_api/static/images/Meet_the_winners/06202704201720Saif1.JPG",
+                        "rank": "1ST JOINT PLACE",
+                        "org": "Masdar Institute in Khalifa University",
+                        "country": "UAE"
+                    },
+                    {
+                        "img": "/mobile_website_content_api/static/images/Meet_the_winners/05202704201720Saif1.JPG",
+                        "rank": "2ND JOINT PLACE",
+                        "org": "Khalifa University",
+                        "country": "UAE"
+                      },
+
+                      {
+                        "img": "/mobile_website_content_api/static/images/Meet_the_winners/04202704201720Saif1.JPG",
+                        "rank": "3RD PLACE",
+                        "org": "Petroleum Institute in Khalifa University",
+                        "country": "UAE"
+                      }],
+                "cycle_2":[
+
+                      {
+                        "img": "/mobile_website_content_api/static/images/Meet_the_winners/Khalifa%2520University%2520-%2520Banu.jpg",
+                        "rank": "1ST PLACE",
+                        "org": "Khalifa University",
+                        "country": "UAE"
+                      }
+
+                ]
+
+            },
+            "innovation_research_development_award_2": {
+                "tab_title":"",
+                "title":"International Institutions",
+
+                "cycle_1":[
+                    {
+                        "img":"/mobile_website_content_api/static/images/Meet_the_winners/09%252027042017%2520Saif1.JPG",
+                        "rank": "1ST PLACE",
+                        "org": "TNO and KAHRAMAA",
+                        "country": "Hollan and Qatar"
+
+                    },
+                    {
+                        "img":"/mobile_website_content_api/static/images/Meet_the_winners/08%252027042017%2520Saif1.JPG",
+                        "rank":"2ND PLACE",
+                        "org":"Ecole Polytechnique Fédérale de Lausanne",
+                        "country":"Switzerland"
+
+                    },
+                    {
+                        "img":"/mobile_website_content_api/static/images/Meet_the_winners/07%252027042017%2520Saif1.JPG",
+                        "rank":"3RD PLACE",
+                        "org":"ESimon Fraser University",
+                        "country":"Canada"
+
+                    }
+                ],
+                "cycle_2":[
+                    {
+                        "img":"/mobile_website_content_api/static/images/Meet_the_winners/Liquenex%2520%2520bashir%2520%2520Riyadh%2520MAIN%2520PHOTO.jpg",
+                        "rank": "1ST PLACE",
+                        "org": "Liquinex Group Pte Ltd",
+                        "country": "Singapore"
+
+                    },
+                    {
+                        "img":"/mobile_website_content_api/static/images/Meet_the_winners/Plasma%2520Waters%2520-%2520Joaquien.jpg",
+                        "rank":"2ND PLACE",
+                        "org":"Plasma Waters",
+                        "country":"Chile"
+
+                    },
+                    {
+                        "img":"/mobile_website_content_api/static/images/Meet_the_winners/Project%2520Maje%2520-%2520Sunil.jpg",
+                        "rank":"3RD PLACE",
+                        "org":"Project Maji",
+                        "country":"Ghana"
+
+                    }
+
+                ]
+
+
+            },
+            "innovation_individual_award":{
+
+                "tab_title":"INNOVATIVE INDIVIDUAL AWARD",
+                "title":"Youth",
+                "cycle_1":[
+                    {
+                    "img":"/mobile_website_content_api/static/images/Meet_the_winners/12202704201720Saif1.JPG",
+                    "rank":"1ST PLACE",
+                    "org":"Dr Marta Vivar",
+                    "country":"Spain"
+                    }
+                ],
+                "cycle_2":[{
+                    "img":"/mobile_website_content_api/static/images/Meet_the_winners/Jan20Radel.jpg",
+                    "rank":"JOINT-WINNER",
+                    "org":"Jan Rädel",
+                    "country":"Germany"
+
+                },
+                {
+                    "img":"/mobile_website_content_api/static/images/Meet_the_winners/Dr%2520Muhammed%2520Wakil%2520Shahzad%2520-%2520Youth%2520Joint-winner.jpg",
+                    "rank":"JOINT-WINNER",
+                    "org":"Dr. Muhammed Wakil Shahzad",
+                    "country":"Pakistan "
+
+                }
+            
+            
+            ]
+                
+
+            },
+
+            "innovation_individual_award_2":{
+                "tab_title":"",
+                "title":"Distinguished Researcher",
+                "cycle_1":[{
+                    "img":"/mobile_website_content_api/static/images/Meet_the_winners/Dr%2520Mahomoud%2520Shatat%2520-%2520Distinguished%2520researcher.jpg",
+                    "rank":"WINNER",
+                    "org":"Dr. Mahmoud Shatat",
+                    "country":"Palestine"
+
+                }
+            ]
+                
+
+            }
+          }
+        ]
+      }
+    }
+  }

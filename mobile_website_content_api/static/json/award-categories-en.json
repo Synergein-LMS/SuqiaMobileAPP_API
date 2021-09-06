@@ -1,0 +1,47 @@
+{
+    "data": {
+      "page_id": "21",
+      "sub_page":true,
+      "page_title": "AWARD",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+       "banner":"/mobile_website_content_api/static/images/award/Rectangle_692.png",
+       "award_categories":{
+
+            "title":"AWARD CATEGORIES",
+            "content":"The Award is comprised of 4 main categories that target pioneering organisations, research centres, individuals, educational institutions, and innovators from all around the world to motivate participants to come up with innovative, renewable energy powered solutions with the aim to either produce, distribute, store, monitor, desalinate and/or purify water:",
+            "categories":["INNOVATIVE PROJECTS AWARD","INNOVATIVE INDIVIDUAL AWARD","INNOVATIVE RESEARCH & DEVELOPMENT AWARD", "INNOVATIVE CRISIS SOLUTIONS AWARD"]
+        },
+        "categories":[
+
+            {   "cat_id":1,
+                "title":"INNOVATIVE PROJECTS AWARD",
+                "desc":"The project submitted by the applicant must be an innovative and commercialized or a ready-to-be- commercialised (e.g. past pilot stage) solution with measurable results in operation for at least 3 months (minimum requirement) prior to the closing date of the application window. The project can consist of a single system or a pool of multiple systems that have been deployed by the same organisation in different locations. The project should rely on 100% use of renewable energy to produce safe drinking water in line with World Health Organisation (WHO) guidelines. It should demonstrate innovation in production capacity, overcoming technical limitations, disinfection systems, operation and maintenance requirements, while also improving efficiency and cost effectiveness. The project benefits should meet the WHO requirements for non-emergency water availability, that is, provide a minimum of 30 lit/person/day* to intended recipients.",
+                "intended_applicants":"Governmental, semi-governmental, private and non-governmental organizations.",
+                "img":"/mobile_website_content_api/static/images/award/award_cat1.png"
+            },
+            {   "cat_id":2,
+                "title":"INNOVATIVE INDIVIDUAL AWARD",
+                "desc":"The individual applying to this category should have developed one or more contributions to enable innovative technological solutions to address water scarcity, which can use renewable energy to produce safe drinking water in line with World Health Organisation (WHO) guidelines. The applicant should submit an overview of their research and implementation contributions towards the aims of the award, along with all relevant supporting documents (scientific publications, patents, prototype photos and descriptions etc.)",
+                "intended_applicants":"Individual applicants",
+                "img":"/mobile_website_content_api/static/images/award/award_cat2.png"
+            },
+            {   "cat_id":3,
+                "title":"INNOVATIVE RESEARCH & DEVELOPMENT AWARD",
+                "desc":"The project submitted by the applicant must be an innovative and prototyped, piloted or deployed solution, with the ability to demonstrate measurable results. The project must be developed and executed by the applicant with the aim of extracting safe drinking water from natural sources in line with World Health Organisation (WHO) guidelines. The project should be able to operate exclusively on renewable energy once deployed in the field without affecting its economic viability. The project should preferably be a solution that is easily installed, operated and maintained without the need for highly specialised skills and tools and should be able to operate reliably in different and harsh ambient conditions, using low cost and maintenance friendly technology.",
+                "intended_applicants":"Individuals or teams from non-profit, educational and academic institutions and research centres that are independent or annexed to governmental or semi-governmental organisations.",
+                "img":"/mobile_website_content_api/static/images/award/award_cat3.png"
+            },
+            {   "cat_id":4,
+                "title":"INNOVATIVE CRISIS SOLUTIONS AWARD",
+                "desc":"The applicant’s project must be an innovative system or management system to offer emergency relief by providing clean and safe drinking water in communities that have been affected by internationally declared crises, such as natural disasters, or catastrophic events. The project can consist of a single system or a pool of multiple systems deployed by the same organisation in different locations or communities, and have the ability to be deployed within 48 hours. The project must have been field deployed in an emergency and proven to have aided at least 1,000 people in need of fresh water during the initial critical phases of humanitarian assistance.",
+                "intended_applicants":"Small enterprises, research institutions, and NGOs",
+                "img":"/mobile_website_content_api/static/images/award/Innovative-Crisis-Solutions-Award-English.png"
+            }
+            
+        ]
+         
+      }
+    }
+  }
+

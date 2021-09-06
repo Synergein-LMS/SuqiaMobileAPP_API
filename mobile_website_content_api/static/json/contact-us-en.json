@@ -1,0 +1,26 @@
+{
+    "data": {
+      "page_id": "20",
+      "sub_page":false,
+      "page_title": "CONTACT US",
+      "img_base_url": "https://www.suqia.ae",
+      "background_img":"/mobile_website_content_api/static/images/Contact_us/Rectangle_672.png",
+      "sections":{
+      "headquarters": { "id":1,
+                        "icon":"/mobile_website_content_api/static/images/Contact_us/headquarters.png",
+                        "title":"HEADQUARTERS",
+                        "address":"UAE Water Aid Foundation\n(Suqia UAE) Office, Ground Floor\nDEWA Head Office , AlGarhoud, Dubai, UAE"       
+                      },
+      "mailing_address":{"id":2, 
+                        "icon":"/mobile_website_content_api/static/images/Contact_us/mailing-address.png",
+                        "title":"MAILING ADDRESS",
+                        "address":"Dubai Electricity And Water Authority,\nP.O. Box 564,\nDubai, U.A.E,\ninfo@suqia.ae"       
+                      },
+      "contact_number":{"id":3, 
+                        "icon":"/mobile_website_content_api/static/images/Contact_us/contact-number.png",
+                        "title":"CONTACT NUMBER",
+                        "contact_details":"Tel: +971-4-6019999\nFax: +971-4-6019995"       
+                      }
+                    }
+  }
+}

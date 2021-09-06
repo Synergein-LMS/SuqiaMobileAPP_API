@@ -1,0 +1,92 @@
+{
+    "data": {
+      "page_id": "12",
+      "sub_page":true,
+      "page_title": "OUR SOLUTIONS",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+  
+        "banner":[
+          {
+            
+            "title": "OUR SOLUTIONS",
+            "img":"/mobile_website_content_api/static/images/Our_solutions/hands-field-title.png",
+            "des":"HOW WE ARE HELPING",
+            "content":"We are keen on working with partners who share our vision and passion to serve those most vulnerable. We are on a mission to end the water crisis. Through our partnerships, we have been able to implement more than 1000 projects to provide millions of people with access to clean water. Before implementing a project, we assess the community needs and circumstances, taking into consideration the community’s size, population, availability and quality of water sources,terrain and climate, in order to determine the best solutions and find the right technologies to supply safe drinking water in a cost-effective manner."
+          }
+        ],
+        "more_about_solutions":
+        {
+        "title":"You can read more about the solutions we implement below",
+        "list_content":  [
+         
+            {
+              "list_content_id":1,
+              "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/water-purification-station-icon.png",
+              "title":"WATER PURIFICATION STATION",
+              "content":"We construct water purification stations to remove impurities from contaminated water sources. The purified water can then be used for drinking, cooking and irrigation."
+            
+            },
+            {  "list_content_id":2,
+                "title":"WATER STATION",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/water-station-icon.png",
+                "content":"We build water stations to pump and filter water from lakes, rivers and other sources. Water stations can also draw water from existing wells, forming complete systems where the water is pumped to the surface, filtered and either safely stored in storage tanks or distributed to end users."
+              
+            },
+            {
+                "list_content_id":3,
+                "title":"ARTESIAN WELL",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/artesian-well-icon.png",
+                "content":"We build artesian wells to extract clean drinking water from aquifers or reservoirs located over 100 feet below surface level. Artesian well is our most commonly-implemented solution, as it is less susceptible to drying out and meets the environmental conditions of most countries."
+              
+            },
+            {
+                "list_content_id":4,
+                "title":"SURFACE WELL",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/surface-well-icon.png",
+                "content":"We build surface wells to access ground water from relatively shallow depths, ranging from 25 to 30 feet beneath the ground."
+              
+            },
+            {
+                "list_content_id":5,
+                "title":"MOUNTAIN SPRINGS",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/mountain-spring-icon.png",
+                "content":"In mountainous regions, we source freshwater from natural mountain springs and distribute it to the residents of the nearby villages through piping networks."
+              
+            },
+             {
+                "list_content_id":6,
+                "title":"WATER COOLERS AND HEATERS",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/water-cooler-heater-icon.png",
+                "content":"In regions of extreme climate, we install water coolers and heaters to regulate the water’s temperature before dispensing it. The water can be used for drinking, irrigation and farming."
+              
+            },
+            {
+                "list_content_id":7,
+                "title":"CHARITABLE AID",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/charitable-aid-icon.png",
+                "content":"We respond to the needs of communities all year round, both locally and globally. Every year, and in collaboration with our trusted partners, we distribute bottled water across the Emirates and worldwide during the Holy Month of Ramadan. We also distribute bottled water during emergency crises."
+              
+            },
+            {
+                "list_content_id":8,
+                "title":"WATER DISTRIBUTION NETWORK",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/water-distribution-network-icon.png",
+                "content":"Through our projects, we aim to benefit the greatest number of people possible. We build water distribution networks that transport clean water from the source or purification point to nearby villages."
+              
+            },
+             {
+                "list_content_id":9,
+                "title":"SANITATION FACILITIES",
+                "svg_icon_path": "/mobile_website_content_api/static/images/Our_solutions/sanitation-facility-icon.png",
+                "content":"We acknowledge that sanitation and hygiene are crucial for human development and cannot be overlooked. We have built new and improved sanitation facilities and latrines to provide a clean and safe environment to help reduce mortality and keep children safe."
+              
+            }
+                
+          ]
+        
+        }
+      
+      }
+    }
+  }

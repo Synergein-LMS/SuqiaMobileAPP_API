@@ -1,0 +1,96 @@
+{
+    "data": {
+      "page_id": "3",
+      "sub_page": true,
+      "page_title": "Why Water",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+        "banner": [
+          {
+            "banner_id": 1,
+            "title": "844 MILLION PEOPLE",
+            "desc": "IN THE WORLD LIVE WITHOUT ACCESS TO CLEAN WATER",
+            "content": "Water is a fundamental human need and a driver for sustainable growth, yet water scarcity affects more than 40% of the global population and is projected to rise. While 2.6 billion people have gained access to improved drinking water sources since 1990, yet 844 million people are still struggling with water sources.",
+            "banner_image":"/mobile_website_content_api/static/images/Why_water/Rectangle_672.png",
+            "img": "/mobile_website_content_api/static/images/Why_water/Rectangle_252.png"
+          }
+          
+        ],
+        "facts": [
+          {
+            "facts_id": 1,
+            "title": "FACTS",
+            "desc": "Statistics can look stark. But we believe that we can challenge those odds thanks to our donors and implementing partners. With their help, we have already served millions of people with access to clean and safe water in some of the driest and toughest places in the world.",
+            "content": "",
+            "img": ""
+          }
+        ],
+        "fact_widgets": [
+          {
+            "fact_widget_id": 1,
+            "title": "31%",
+            "desc": "31% of schools don’t have clean water.",
+            "img": "/mobile_website_content_api/static/images/Why_water/31.png",
+            "content": "(UNICEF, Advancing WASH in Schools Monitoring, 2015)"
+          },
+          {
+            "fact_widget_id": 2,
+            "title": "2.3B",
+            "desc": "2.3 billion people don’t have a decent toilet.",
+            "img": "/mobile_website_content_api/static/images/Why_water/2.3B.png",
+            "content": "(WHO/UNICEF Joint Monitoring Programme (JMP) Report 2017)"
+          },
+          {
+            "fact_widget_id": 3,
+            "title": "2025",
+            "desc": "By 2025, half of the world’s population will be living in water-stressed areas.",
+            "img": "/mobile_website_content_api/static/images/Why_water/2025.png",
+            "content": ""
+          },
+          {
+            "fact_widget_id": 4,
+            "title": "1",
+            "desc": "Every minute a newborn dies from infection caused by lack of safe water and an unclean environment.",
+            "img": "/mobile_website_content_api/static/images/Why_water/1.png",
+            "content": "(WHO, 2015)"
+          }
+        ],
+        "banner_clean_water_id":[{
+            "banner_id": 1,
+            "title": "CLEAN WATER CHANGES EVERYTHING",
+            "desc": "",
+            "content": "",
+            "img": "/mobile_website_content_api/static/images/Why_water/Rectangle_122.png"
+        }],
+        "together": [
+          {
+            "facts_id": 1,
+            "title": "TOGETHER, WE CAN MAKE WATER AVAILABLE TO ALL",
+            "desc": "",
+            "content": "",
+            "img": ""
+          }
+        ],
+        "together_widget": [
+          {
+            "together_widget_id": 1,
+            "title": "+1000 SOLUTIONS",
+            "desc": "Working with our partners, we have implemented more than 1000 solutions in 36 countries.",
+            "img": "/mobile_website_content_api/static/images/Why_water/Ellipse82.png"
+          },
+          {
+            "together_widget_id": 2,
+            "title": "13 M",
+            "desc": "Since 2015, we have served more than 13 million people with clean and safe water.",
+            "img": "/mobile_website_content_api/static/images/Why_water/Ellipse82-1.png"
+          },
+          {
+            "together_widget_id": 3,
+            "title": "R&D",
+            "desc": "We are identifying innovative and sustainable water solutions through research & development to end the water crisis.",
+            "img": "/mobile_website_content_api/static/images/Why_water/Ellipse82-2.png"
+          }
+        ]
+      }
+    }
+  }

@@ -1,0 +1,37 @@
+{
+    "data": {
+      "page_id": "11",
+      "sub_page":true,
+      "page_title": "SIMPLE IMMEDIATE SOLUTIONS",
+      "img_base_url": "https://www.suqia.ae",
+      "sections": {
+  
+        "banner":[
+          {
+            
+            "title": "SIMPLE IMMEDIATE SOLUTIONS",
+	    "content":""
+            
+          }
+        ],
+        "solutions":
+       [
+         
+            { "solution_id":1,
+              "title": "SIMPLE SOLUTIONS, SUSTAINABLE IMPACT",
+              "content":"With water sources often located miles away from villages, women and children are forced to spend hours finding and transporting water everyday each day, A typical container used for water collection is about 20L when it's completely full. Carrying these heavy water containers over long distances, often three or four times a day, is exhausting and leaves individuals with severe health issues that can cause great damage to their heads, necks and spines. Without clean water, people cannot go to school, work, maintain their health, build, farm and prosper, which eventually locks them in a cycle of poverty.",
+              "img":"/mobile_website_content_api/static/images/Simple_immediate_solutions/simple_solutions.jpg"
+            
+            },
+            {   "solution_id":2,
+                "title": "RAMADAN, THE MONTH OF GIVING",
+                "content":"In 2014, during the Holy Month of Ramadan, His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai, launched the Suqia initiative to provide clean water to five million people worldwide. The initiative, in cooperation with Emirates Red Crescent Authority, achieved remarkable success and exceeded its targets by raising over AED 180 million in 18 days. The collected funds are able to provide clean drinking water to over seven million people around the world. Following the successful initiative outcome, His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai, issued a law establishing Suqia as a non-profit organisation in March 2015.",
+                "img":"/mobile_website_content_api/static/images/Simple_immediate_solutions/ramadan_slider_img.jpg"
+              
+              }
+                 
+          ]
+         
+      }
+    }
+  }
