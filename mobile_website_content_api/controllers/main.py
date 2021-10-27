@@ -7,7 +7,7 @@ from odoo.exceptions import AccessError,AccessDenied
 import os
 from pathlib import Path
 from odoo.tools import date_utils
-
+# from mobile_app_api.controllers.main import validate_token
 
 def _json_response(self, result=None, error=None):
    web_content_api = self.endpoint.routing.get('web_content_api')
@@ -60,6 +60,7 @@ def error_response(error, msg,code):
 #    }
 class MobileContantAPI(http.Controller):
 
+   # @validate_token
    @http.route('/api/get-page-content/', type='json', auth="none",csrf=False,web_content_api=True)
    def GetPageContent(self,**kw):
       try:
@@ -75,7 +76,7 @@ class MobileContantAPI(http.Controller):
          file_name = kw.get('page_id')+'-'+kw.get('lang')
          datas = json.loads(data)
          print(len(['award-ar','award-en','engaging-youth-ar','engaging-youth-en','our-impacts-ar','our-impacts-en','our-solutions-en','our-solutions-ar','about-us-ar','about-us-en','award-categories-ar','award-categories-en','our-impacts-en','our-impacts-ar','innovation-and-water-en','innovation-and-water-ar','contact-us-en','contact-us-ar','donation-en','donation-ar','evaluation-criteria-en','evaluation-criteria-ar','hands-in-the-field-en','hands-in-the-field-ar','meet-the-winners-ar','meet-the-winners-en','our-programmes-en','our-programmes-ar','year-of-zayed-en','year-of-zayed-ar','why-water-en','why-water-ar','simple-immediate-solutions-ar','simple-immediate-solutions-en']),'+++++++++++++++++++++++++++++++++++++++++')
-         if file_name in ['award-ar','award-en','engaging-youth-ar','engaging-youth-en','our-impacts-ar','our-impacts-en','our-solutions-en','our-solutions-ar','about-us-ar','about-us-en','award-categories-ar','award-categories-en','our-impacts-en','our-impacts-ar','innovation-and-water-en','innovation-and-water-ar','contact-us-en','contact-us-ar','donation-en','donation-ar','evaluation-criteria-en','evaluation-criteria-ar','hands-in-the-field-en','hands-in-the-field-ar','meet-the-winners-ar','meet-the-winners-en','our-programmes-en','our-programmes-ar','year-of-zayed-en','year-of-zayed-ar','why-water-en','why-water-ar','simple-immediate-solutions-ar','simple-immediate-solutions-en','faqs-en','faqs-ar']:
+         if file_name in ['award-ar','award-en','engaging-youth-ar','engaging-youth-en','our-impacts-ar','our-impacts-en','our-solutions-en','our-solutions-ar','about-us-ar','about-us-en','award-categories-ar','award-categories-en','our-impacts-en','our-impacts-ar','innovation-and-water-en','innovation-and-water-ar','contact-us-en','contact-us-ar','donation-en','donation-ar','evaluation-criteria-en','evaluation-criteria-ar','hands-in-the-field-en','hands-in-the-field-ar','meet-the-winners-ar','meet-the-winners-en','our-programmes-en','our-programmes-ar','year-of-zayed-en','year-of-zayed-ar','why-water-en','why-water-ar','simple-immediate-solutions-ar','simple-immediate-solutions-en','faqs-en','faqs-ar','our-partner-en','our-partner-ar']:
             base_url = http.request.env['ir.config_parameter'].sudo().get_param('web.base.url')
             datas['data'].update({'img_base_url':base_url})
          print(datas)
