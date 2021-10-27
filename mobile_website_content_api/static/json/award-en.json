@@ -5,7 +5,7 @@
       "page_title": "AWARD",
       "img_base_url": "https://www.suqia.ae",
       "sections": {
-      "content": "Suqia’s goal is not limited to the provision of potable water to those in need. We also identify how innovative and sustainable technologies can be part of the solution to the global water crisis. We understand that the scale of the water crisis",
+      "content": "Suqia’s goal is not limited to the provision of potable water to those in need. We also identify how innovative and sustainable technologies can be part of the solution to the global water crisis. We understand that the scale of the water crisis.",
        "banner":"/mobile_website_content_api/static/images/award/awards-header-bg.jpg",
     "award":
        [  
@@ -52,7 +52,7 @@
        "award_categories":{
 
             "title":"AWARD CATEGORIES",
-            "content":"The Award is comprised of 4 main categories that target pioneering organisations, research centres, individuals, educational institutions, and innovators from all around the world to motivate participants ",
+            "content":"The Award is comprised of 4 main categories that target pioneering organisations, research centres, individuals, educational institutions, and innovators from all around the world to motivate participants.",
             "categories":["INNOVATIVE PROJECTS AWARD","INNOVATIVE INDIVIDUAL AWARD","INNOVATIVE RESEARCH & DEVELOPMENT AWARD", "INNOVATIVE CRISIS SOLUTIONS AWARD"],
             "img":["/mobile_website_content_api/static/images/award/award_cat1.png","/mobile_website_content_api/static/images/award/award_cat2.png","/mobile_website_content_api/static/images/award/award_cat3.png","/mobile_website_content_api/static/images/award/Innovative-Crisis-Solutions-Award-English.png"]
         },

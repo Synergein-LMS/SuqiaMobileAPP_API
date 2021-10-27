@@ -15,24 +15,26 @@
           { 
             "innovative_projects_award": {
                 "tab_title":"ائزة الابتكارات الفردية ",
-               "title":"الدورة  ", 
                 "cycle_1": [
                     {
                       "img": "/mobile_website_content_api/static/images/Meet_the_winners/12202704201720Saif1.JPG",
                       "rank": "المركز الثالث   ",
                       "org": "شركة 'سولار ووتر سوليوشنز' ' وشركة 'P7 غلوبال' ' ",
+                      "title":"الدورة  ",
                       "country": "فنلندا والإمارات العربية المتحدة  "
                     },
                     {
                         "img": "/mobile_website_content_api/static/images/Meet_the_winners/11%252027042017%2520Saif1.JPG",
                         "rank": "المركز الثاني  ",
                         "org": " شركة تيماك  ",
+                        "title":"الدورة  ",
                         "country": "Greece"
                       },
                       {
                         "img": "/mobile_website_content_api/static/images/Meet_the_winners/10%252027042017%2520Saif1.JPG",
                         "rank": "المركز الأول  ",
                         "org": "شركة 'إليمينتال ووتر ميكرز  ' ",
+                        "title":"الدورة  ",
                         "country": "هولندا "
                       }
                       
@@ -43,12 +45,14 @@
                   "img": "/mobile_website_content_api/static/images/Meet_the_winners/Give%2520Power%2520-%2520Hayden.jpg",
                   "rank": "المركز الثالث   ",
                   "org": "شركة انترناشيونال بزنس فنتيورز (آي. بي. في.) بالشراكة مع زيرو ماس ووتر الإمارات العربية المتحدة والولايات المتحدة  ",
+                  "title":"الدورة  ",
                   "country": "الأمريكية  "
                 },
                 {
                     "img": "/mobile_website_content_api/static/images/Meet_the_winners/Boreal%2520Light%2520%2520Dr%2520Hameed.jpg",
                     "rank": "المركز الثاني  ",
                     "org": "بوريال لايت ذ.ذ.م. .",
+                    "title":"الدورة  ",
                     "country": "المانيا  "
                   },
 
@@ -56,6 +60,7 @@
                     "img": "/mobile_website_content_api/static/images/Meet_the_winners/IBV%2520and%2520Zero%2520Mass%2520-%2520Sam.jpg",
                     "rank": "المركز الأول  ",
                     "org": "مؤسسة جيف باور  ",
+                    "title":"الدورة  ",
                     "country": "الولايات المتحدة الأمريكية  "
                   }
               ]
@@ -64,18 +69,19 @@
 
             "innovation_research_development_award": {
                 "tab_title":"جائزة الابتكار في البحث والتطوير ",
-                "title":"المؤسسات الوطنية  ",
                 "cycle_1":[
                     {
                         "img": "/mobile_website_content_api/static/images/Meet_the_winners/06202704201720Saif1.JPG",
                         "rank": "المركز الثالث   ",
                         "org": "المعهد البترولي في جامعة خليفة  ",
+                        "title":"المؤسسات الوطنية  ",
                         "country": "الإمارات العربية المتحدة  "
                     },
                     {
                         "img": "/mobile_website_content_api/static/images/Meet_the_winners/05202704201720Saif1.JPG",
                         "rank": "المركز الأول بالمناصفة  ",
                         "org": "جامعة خليفة  ",
+                        "title":"المؤسسات الوطنية  ",
                         "country": "الإمارات العربية المتحدة  "
                       },
 
@@ -83,34 +89,13 @@
                         "img": "/mobile_website_content_api/static/images/Meet_the_winners/04202704201720Saif1.JPG",
                         "rank": "المركز الأول بالمناصفة  ",
                         "org": "معهد مصدر في جامعة خليفة  ",
+                        "title":"المؤسسات الوطنية  ",
                         "country": "الإمارات العربية المتحدة  "
-                      }],
-                "cycle_2":[
-
-                      {
-                        "img": "/mobile_website_content_api/static/images/Meet_the_winners/Khalifa%2520University%2520-%2520Banu.jpg",
-                        "rank": "المركز الأول  ",
-                        "org": "جامعة خليفة  ",
-                        "country": "الإمارات العربية المتحدة  "
-                      }
-
-
-
-
-
-                ]
-
-
-            },
-            "innovation_research_development_award_2": {
-                "tab_title":"",
-                "title":"المؤسسات العالمية  ",
-
-                "cycle_1":[
-                    {
+                      },{
                         "img":"/mobile_website_content_api/static/images/Meet_the_winners/09%252027042017%2520Saif1.JPG",
                         "rank": "المركز الثالث   ",
                         "org": "جامعة سايمون فريزر ",
+                        "title":"المؤسسات العالمية  ",
                         "country": "كندا "
 
                     },
@@ -118,6 +103,7 @@
                         "img":"/mobile_website_content_api/static/images/Meet_the_winners/08%252027042017%2520Saif1.JPG",
                         "rank":"المركز الثاني  ",
                         "org":"مدرسة لوزان الاتحادية للفنون التطبيقية  ",
+                        "title":"المؤسسات العالمية  ",
                         "country":"سويسرا  "
 
                     },
@@ -125,15 +111,25 @@
                         "img":"/mobile_website_content_api/static/images/Meet_the_winners/07%252027042017%2520Saif1.JPG",
                         "rank":"المركز الأول  ",
                         "org":"منظمة هولندا للبحوث العلمية التطبيقية وشركة 'كهرماء ' ",
+                        "title":"المؤسسات العالمية  ",
                         "country":" هولندا وقطر  "
 
-                    }
-                ],
+                    }],
                 "cycle_2":[
-                    {
+
+                      {
+                        "img": "/mobile_website_content_api/static/images/Meet_the_winners/Khalifa%2520University%2520-%2520Banu.jpg",
+                        "rank": "المركز الأول  ",
+                        "org": "جامعة خليفة  ",
+                        "title":"المؤسسات الوطنية ",
+                        "country": "الإمارات العربية المتحدة  "
+                      },
+
+                {
                         "img":"/mobile_website_content_api/static/images/Meet_the_winners/Liquenex%2520%2520bashir%2520%2520Riyadh%2520MAIN%2520PHOTO.jpg",
                         "rank": "المركز الثالث  ",
                         "org": "مشروع ماجي  ",
+                        "title":"المؤسسات العالمية ",
                         "country": "غانا  "
 
                     },
@@ -141,6 +137,7 @@
                         "img":"/mobile_website_content_api/static/images/Meet_the_winners/Plasma%2520Waters%2520-%2520Joaquien.jpg",
                         "rank":"المركز الثاني  ",
                         "org":"شركة بلازما ووترز  ",
+                        "title":"المؤسسات العالمية ",
                         "country":"تشيلي  "
 
                     },
@@ -148,22 +145,22 @@
                         "img":"/mobile_website_content_api/static/images/Meet_the_winners/Project%2520Maje%2520-%2520Sunil.jpg",
                         "rank":"المركز الأول  ",
                         "org":"مجموعة ليكوينكس ذ.ذ.م. ",
+                        "title":"المؤسسات العالمية ",
                         "country":"سنغافورا  "
 
-                    }
-
-                ]
+                    }]},
 
 
-            },
+
+            
             "innovation_individual_award":{
                 "tab_title":"ججائزة الابتكارات الفردية  ",
-                "title":"الابتكارات الشابة  ",
                 "cycle_1":[
                     {
                     "img":"/mobile_website_content_api/static/images/Meet_the_winners/12202704201720Saif1.JPG",
                     "rank":"االمركز الأول  ",
                     "org":"الدكتورة مارتا فيفار  ",
+                    "title":"الابتكارات الشابة  ",
                     "country":"أسبانيا  "
                     }
                 ],
@@ -171,6 +168,7 @@
                     "img":"/mobile_website_content_api/static/images/Meet_the_winners/Jan20Radel.jpg",
                     "rank":"ابالمناصفة  ",
                     "org":"د. محمد وكيل شهزاد  ",
+                    "title":"الابتكارات الشابة  ",
                     "country":"باكستان  "
 
                 },
@@ -178,32 +176,25 @@
                     "img":"/mobile_website_content_api/static/images/Meet_the_winners/Dr%2520Muhammed%2520Wakil%2520Shahzad%2520-%2520Youth%2520Joint-winner.jpg",
                     "rank":"ابالمناصفة  ",
                     "org":"يان رايدل  ",
+                    "title":"الابتكارات الشابة  ",
                     "country":"هألمانيا  "
 
-                }
-            
-            
-            ]
-                
-
-            },
-
-            "innovation_individual_award_2":{
-                "tab_title":"",
-                "title":"الباحث المبتكر  ",
-                "cycle_1":[{
+                },{
                     "img":"/mobile_website_content_api/static/images/Meet_the_winners/Dr%2520Mahomoud%2520Shatat%2520-%2520Distinguished%2520researcher.jpg",
                     "rank":"الفائز ",
                     "org":"د. محمود شتات   ",
+                    "title":"الباحث المبتكر ",
                     "country":"فلسطين  "
 
                 }
-            ]
+            
+            
+            ]}
                 
-
-            }
-          }
-        ]
+}]
+           
       }
     }
   }
+        
+ 

@@ -5,7 +5,7 @@
       "page_title": "EVALUATION CRITERIA",
       "img_base_url": "https://www.suqia.ae",
       "content":"Applications will be evaluated against a set of evaluation criteria relevant to the applied category (Innovative Projects Award, Innovative Research & Development Award, Innovative Individual Award and Innovative Crisis Solutions Award) in order to ensure fair and appropriate scoring of entries and selection of winners.",
-      "Note:": "Local in the below context refers to the local to the area/country of the project development or implementation (or intended implementation).",
+      "Note:": "*Note:'Local' in the below context refers to the local to the area/country of the project development or implementation (or intended implementation).",
       "sections": {
                    "banner":"/mobile_website_content_api/static/images/award/Rectangle_692.png",
 
@@ -68,12 +68,12 @@
                     {
                         "title":"Adherence to Health and Safety and Other Environment Standards",
                         "percentage":"10%",
-                        "desc":"Compliance with applicable Environmental and Social Standards ( ESS ) and regulations. This includes demonstrating an approach process and / or providing evidence of compliance with applicable jurisdiction environmental and social regulations, and compliance with applicable health and safety standards and regulations.(Demonstrate how you have considered WHO guidelines for quality drinking water, with test results of water quality pre and post treatment submitted from a recognized laboratory.)"
+                        "desc":"Compliance with applicable Environmental and Social Standards ( ESS ) and regulations. This includes demonstrating an approach process and / or providing evidence of compliance with applicable jurisdiction environmental and social regulations, and compliance with applicable health and safety standards and regulations.(Demonstrate how you have considered WHO guidelines for quality drinking water, with test results of water quality pre and post treatment submitted from a recognized laboratory for validation)."
                     },
                     {
                         "title":"Cost-effectiveness and Scalability",
                         "percentage":"10%",
-                        "desc":"A lifecycle cost-benefit analysis that shows positive results and if the project is ready for impact investment."
+                        "desc":"A lifecycle cost-benefit analysis that shows potential for large-scale deployment."
                     }
                 ]
             },
@@ -128,12 +128,7 @@
                     {
                         "title":"Adherence to Health and Safety and Other Environment Standards",
                         "percentage":"10%",
-                        "desc":"Simplicity in assembly and disassembly, operation & maintenance and adaptability and durability to local operating conditions and harsh environments as well as engagement with the local community."
-                    },
-                    {
-                        "title":"Adherence to Health and Safety and Other Environment Standards",
-                        "percentage":"20%",
-                        "desc":"Compliance with applicable Environmental and Social Standards (ESS) and regulations. This includes demonstrating an approach process and / or providing evidence of compliance with applicable jurisdiction environmental and social regulations, and compliance with applicable health and safety standards and regulations.(Demonstrate you have considered WHO guidelines for quality drinking water, with test results of water quality pre and post treatment submitted from a recognized laboratory.)"
+                        "desc":"Compliance with applicable Environmental and Social Standards (ESS) and regulations. This includes demonstrating an approach process and / or providing evidence of compliance with applicable jurisdiction environmental and social regulations, and compliance with applicable health and safety standards and regulations.(Demonstrate you have considered WHO guidelines for quality drinking water, with test results of water quality pre and post treatment submitted from a recognized laboratory)."
                     },
                     {
                         "title":"Active Engagement, Teamwork, Education and Awareness on Water Scarcity Related Issues",
@@ -146,7 +141,7 @@
                 "criteria_id":5,
                 "title":"INNOVATIVE CRISIS SOLUTIONS AWARD",
                 "img":"/mobile_website_content_api/static/images/award/Innovative-Crisis-Solutions-Award-English.png",
-                "desc":"Applications submitted under the Innovative Individual Award – Youth Award subcategory will be evaluated against:",
+                "desc":"Applications submitted under the Innovative Crisis Solutions Award Category will be evaluated against:",
                 "projects":[
                     { 
                         "title":"Ease of Deployment",

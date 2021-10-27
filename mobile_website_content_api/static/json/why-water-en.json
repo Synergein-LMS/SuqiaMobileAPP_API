@@ -29,28 +29,28 @@
           {
             "fact_widget_id": 1,
             "title": "31%",
-            "desc": "31% of schools don’t have clean water.",
+            "desc": "31% of schools don’t have clean water",
             "img": "/mobile_website_content_api/static/images/Why_water/31.png",
             "content": "(UNICEF, Advancing WASH in Schools Monitoring, 2015)"
           },
           {
             "fact_widget_id": 2,
             "title": "2.3B",
-            "desc": "2.3 billion people don’t have a decent toilet.",
+            "desc": "2.3 billion people don’t have a decent toilet",
             "img": "/mobile_website_content_api/static/images/Why_water/2.3B.png",
             "content": "(WHO/UNICEF Joint Monitoring Programme (JMP) Report 2017)"
           },
           {
             "fact_widget_id": 3,
             "title": "2025",
-            "desc": "By 2025, half of the world’s population will be living in water-stressed areas.",
+            "desc": "By 2025, half of the world’s population will be living in water-stressed areas",
             "img": "/mobile_website_content_api/static/images/Why_water/2025.png",
             "content": ""
           },
           {
             "fact_widget_id": 4,
             "title": "1",
-            "desc": "Every minute a newborn dies from infection caused by lack of safe water and an unclean environment.",
+            "desc": "Every minute a newborn dies from infection caused by lack of safe water and an unclean environment",
             "img": "/mobile_website_content_api/static/images/Why_water/1.png",
             "content": "(WHO, 2015)"
           }

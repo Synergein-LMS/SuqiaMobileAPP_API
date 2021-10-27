@@ -28,14 +28,14 @@
           "name": "OUR CORE",
           "desc": "Mohammed bin Rashid Al Maktoum Global Initiatives Foundation",
           "img": "/mobile_website_content_api/static/images/About_us/about_2.png",
-          "content": "In October 2015, His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai, established the Mohammed bin Rashid Al Maktoum Global Initiatives foundation (MBRGI), an umbrella foundation consolidating 30 humanitarian programmes, organisations and awards that His Highness has previously sponsored and launched. MBRGI has four primary goals: combating poverty and disease, spreading knowledge, empowering communities and entrepreneurship and innovation for the future.\n The foundation’s combined initiatives focus on 130 million people in 116 countries. At Suqia UAE, we are taking the lead in research and development of water shortage solutions to combat poverty and disease in the region."
+          "content": "In October 2015, His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai, established the Mohammed bin Rashid Al Maktoum Global Initiatives foundation (MBRGI), an umbrella foundation consolidating 30 humanitarian programmes, organisations and awards that His Highness has previously sponsored and launched. MBRGI has four primary goals: combating poverty and disease, spreading knowledge, empowering communities and entrepreneurship and innovation for the future. The foundation’s combined initiatives focus on 130 million people in 116 countries. At Suqia UAE, we are taking the lead in research and development of water shortage solutions to combat poverty and disease in the region."
         },
         {
           "who_we_are_id": 4,
           "name": "OUR FOUNDATION",
           "desc": "From an initiative to a foundation",
           "img": "/mobile_website_content_api/static/images/About_us/about_3.png",
-          "content": "In 2014, His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai launched the Suqia initiative to provide clean water to five million people worldwide. The initiative, in cooperation with the Emirates Red Crescent Authority, achieved remarkable success and exceeded its targets by raising enough funds to provide clean drinking water to over 7 million people around the world.\n Following the successful initiative outcomes, His Highness established the UAE Water Aid Foundation, Suqia UAE as a non-profit organisation by law in March 2015."
+          "content": "In 2014, His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai launched the Suqia initiative to provide clean water to five million people worldwide. The initiative, in cooperation with the Emirates Red Crescent Authority, achieved remarkable success and exceeded its targets by raising enough funds to provide clean drinking water to over 7 million people around the world. Following the successful initiative outcomes, His Highness established the UAE Water Aid Foundation, Suqia UAE as a non-profit organisation by law in March 2015."
         }
       ],
       "vision_mission":[
@@ -45,7 +45,7 @@
           "desc": "",
           "type":"",
           "img": "/mobile_website_content_api/static/images/About_us/vision.png",
-          "content": "Provide sustainable pure water through innovative solutions."
+          "content": "Provide sustainable pure water through innovative solutions"
         },
         {
           "vision_mission_id": 2,

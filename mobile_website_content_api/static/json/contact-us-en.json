@@ -14,7 +14,7 @@
       "mailing_address":{"id":2, 
                         "icon":"/mobile_website_content_api/static/images/Contact_us/mailing-address.png",
                         "title":"MAILING ADDRESS",
-                        "address":"Dubai Electricity And Water Authority,\nP.O. Box 564,\nDubai, U.A.E,\ninfo@suqia.ae"       
+                        "address":"Dubai Electricity And Water Authority,\nP.O. Box 564,Dubai,U.A.E,\ninfo@suqia.ae"       
                       },
       "contact_number":{"id":3, 
                         "icon":"/mobile_website_content_api/static/images/Contact_us/contact-number.png",

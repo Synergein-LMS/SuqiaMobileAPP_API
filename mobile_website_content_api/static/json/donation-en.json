@@ -4,6 +4,7 @@
       "sub_page":false,
       "page_title": "",
       "img_base_url": "https://www.suqia.ae",
+      "email":"partners@suqia.ae",
       "sections": {
         "first_line":"Your donation will fund projects that bring access to clean, safe water for people in developing countries around the world.",
         "banner":[
@@ -55,31 +56,32 @@
       "sponsor_project":{
           "sponsor_project_id": 1,
            "title":"SPONSOR A PROJECT",
+           "button_name":"Sponsor This Project",
           "content": "The following communities need your help! You can choose to\nsponsor an entire water project to either communities below:",
           "sponsor":[{"sponsor_id":1,
-                      "title":"SPONSOR A PROJECT",
-                      "amount":"AED 6,315",
-                      "sponsor_title":["Title:","Water project in Benin"],
-                      "location":["Location:","Benin"],
-                      "beneficiaries":["Beneficiaries:","250 people"],
-                      "type_of_solution":["Type of Solution:","Surface Well"],
-                      "img":"/mobile_website_content_api/static/images/Donate/Mali.jpg"
-          },{"sponsor_id":2,
                       "title":"SPONSOR A PROJECT",
                       "amount":"AED 120,000",
                       "sponsor_title":["Title:","Water project in Mali"],
                       "location":["Location:","Mali"],
                       "beneficiaries":["Beneficiaries:","8,000 people"],
                       "type_of_solution":["Type of Solution:","Artesian Well"],
-                      "img":"/mobile_website_content_api/static/images/Donate/Bangladesh.JPG"
-          },
-          {"sponsor_id":3,
+                      "img":"/mobile_website_content_api/static/images/Donate/Mali.jpg"
+          },{"sponsor_id":2,
                       "title":"SPONSOR A PROJECT",
                       "amount":"AED 52,000",
                       "sponsor_title":["Title:","Water project in Bangladesh"],
                       "location":["Location:","Bangladesh"],
                       "beneficiaries":["Beneficiaries:","400 people"],
                       "type_of_solution":["Type of Solution:","Electric Well with a Water Filter"],
+                      "img":"/mobile_website_content_api/static/images/Donate/Bangladesh.JPG"
+          },
+          {"sponsor_id":3,
+                      "title":"SPONSOR A PROJECT",
+                      "amount":"AED 6,315",
+                      "sponsor_title":["Title:","Water project in Benin"],
+                      "location":["Location:","Benin"],
+                      "beneficiaries":["Beneficiaries:","250 people"],
+                      "type_of_solution":["Type of Solution:","Surface Well"],
                       "img":"/mobile_website_content_api/static/images/Donate/Benin.jpg"
           }
          
@@ -92,7 +94,7 @@
                               "content":"To Donate SMS “SUQIA” (Etisalat & Du) for the UAE numbers listed below:",
                               "donation_details":[{
                                                     "title_1":"Donation Amount (AED)",
-                                                    "title_2":"Project Number",
+                                                    "title_2":"& SMS Number",
                                                     "details":[{"detail_col":1,
                                                                     "amount":"25 AED",
                                                                     "num":"8025"

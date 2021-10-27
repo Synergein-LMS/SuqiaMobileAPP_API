@@ -44,7 +44,6 @@
 
                 "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-04.svg",
                 "content":"Embed the concepts of innovation, sustainability and giving"
-              
             },
             {
                 "list_content_id":5,
@@ -56,10 +55,8 @@
             
             
           ]
-        
-        
         },
-        "water_challenge":{"title":"The water challenge will continue to persist, and together with a conscious generation, we will be able to address the global water crisis and create a better future where all people have access to clean drinking water.",
+        "water_challenge":{"title":"The water challenge will continue to persist, and together with a conscious generation, we will be able to address the global water crisis and create a better future where all people have access to clean drinking water",
             "programee":[{"programee_id":1,
                           "title":"WATER: THE GLOBAL PASSPORT PROGRAMME",
                           "img":"/mobile_website_content_api/static/images/engaging_youth/eyouth-1.png",
