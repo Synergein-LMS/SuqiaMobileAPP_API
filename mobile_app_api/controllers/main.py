@@ -8,9 +8,15 @@ import logging
 _logger = logging.getLogger(__name__)
 import collections
 from odoo.addons.auth_signup.models.res_users import SignupError
+# from odoo.addons.web.controllers.main import Session
+
 import os
 from pathlib import Path
 from odoo.tools import date_utils
+import functools
+
+TOKEN = 'a7e74538828a5dcd6f50a9ea23d3604ec14678da89be7f7d33b993e49158bca7'
+expires_in = "mobile_app_api.access_token_expires_in"
 
 def error_response(error, msg,code):
    return {
@@ -36,15 +42,68 @@ def success_response(data):
          "data": data
       
    }
+
+
+# def validate_token(func):
+    
+#     @functools.wraps(func)
+#     def wrap(self, *args, **kwargs):
+#         access_token = request.httprequest.headers.get("access_token")
+#         if not access_token:
+#             return error_response("access_token_not_found", "missing access token in request header", 401)
+#         if access_token != TOKEN:
+#             return error_response("Invalid Access Token", "Invalid Token", 401)
+
+#         return func(self, *args, **kwargs)
+
+#     return wrap
+def validate_token(func):
+    """."""
+
+    @functools.wraps(func)
+    def wrap(self, *args, **kwargs):
+        """."""
+        access_token = request.httprequest.headers.get("access_token")
+        if not access_token:
+            return error_response("access_token_not_found", "missing access token in request header", 401)
+        access_token_data = (
+            request.env["api.access_token"].sudo().search([("token", "=", access_token)], order="id DESC", limit=1)
+        )
+        print(access_token_data,'access_token_dataaccess_token_data')
+        if access_token_data.find_one_or_create_token(user_id=access_token_data.user_id.id) != access_token:
+            return error_response("access_token", "token seems to have expired or invalid", 401)
+
+        request.session.uid = access_token_data.user_id.id
+        request.uid = access_token_data.user_id.id
+        return func(self, *args, **kwargs)
+
+    return wrap
+    
 class MobileAPI(http.Controller):
 
+   # @validate_token
    @http.route('/api/user_auth', type='json', auth="none")
    def users_authenticate(self, db, login, password):
+      data_dict = {}
       try:
+         users = request.env['res.users']
+         user = users.search(users._get_login_domain(login), order=users._get_login_order(), limit=1)
+         try:
+            if not user:
+               raise AccessDenied()
+         except AccessDenied as ade:
+               msg = "Invalid Login" 
+               return error_response(ade, msg,200)
+         user = user.with_user(user)
+         try:
+            user._check_credentials(password)
+         except AccessDenied as ade:
+            msg = "Invalid Password"
+            return error_response(ade, msg,200)
          rec_id = request.session.authenticate(db, login, password)
          data = request.env['res.users'].browse(rec_id)
          print(data,request.session.sid)
-         data_dict = {'odoo_id':data.id,'login':data.login,'name':data.name,'phone':data.phone,'email':data.email}
+         # data_dict = {'odoo_id':data.id,'login':data.login,'name':data.name,'phone':data.phone,'email':data.email}
       except AccessError as aee:
          msg = "Error: %s" % aee.name
          return error_response(aee, msg,200)
@@ -52,10 +111,16 @@ class MobileAPI(http.Controller):
          msg = "Login or password invalid"
          return error_response(ade, msg,200)
       except Exception as e:
-         error = "invalid_database"
+         error = "Invalid Database"
          return error_response(e, error,403)
-      return success_response(data_dict)
-   
+      _token = request.env["api.access_token"]
+      access_token = _token.find_one_or_create_token(user_id=data.id, create=True)
+      # print(access_token,'access_token.lll.............oooooooooooooo')
+      data_dict = request.env['ir.http'].session_info()
+      data_dict.update({'access_token':access_token,'expires_in':request.env.ref(expires_in).sudo().value})
+      return data_dict
+
+   # @validate_token
    @http.route('/api/sign_up/', type='json',auth="public",csrf=False,website=True)
    def users_create_authenticate(self, **kw):
       values = collections.OrderedDict(kw)
@@ -71,17 +136,18 @@ class MobileAPI(http.Controller):
          values.pop('confirm_password')
          sudo_users.activate_signup(values,None)
          sudo_users.account_active(values.get("login"))
-         return success_response('Registration Success')        
+         return success_response('Registration Success. Please check your email to activate')        
       except SignupError as aee:
          return error_response(aee, aee,403)
       except Exception as e:
          error = "invalid_database"
          return error_response(e, error,403)
 
-   @http.route('/api/get_pdf/', type='json',auth="public",csrf=False,website=True,web_content_api=True)
+   # @validate_token
+   @http.route('/api/get_pdf/', type='json',auth='none',csrf=False,web_content_api=True)
    def send_pdf_file(self, **kw):
       try:
-         if kw.get('file_name') in ['GENERAL_APPLICATION_GUIDELINES','AWARD_TERMS'] and kw.get('lang'):
+         if kw.get('file_name') in ['GENERAL_APPLICATION_GUIDELINES','AWARD_TERMS','AT_GAG'] and kw.get('lang'):
             base_url = http.request.env['ir.config_parameter'].sudo().get_param('web.base.url')
             url_form = base_url+'/mobile_app_api/static/pdf/%s_%s.pdf'%(kw.get('file_name'),kw.get('lang'))
             print(url_form)
@@ -94,6 +160,7 @@ class MobileAPI(http.Controller):
          error = "Invalid File Name or Invalid Parameter"
          return error_response(e, error,403)
 
+   # @validate_token
    @http.route('/api/reset_password/', type='json',auth="public",csrf=False,website=True,web_content_api=True)
    def user_reset_password(self, **kw):
       try:
@@ -105,6 +172,7 @@ class MobileAPI(http.Controller):
          error = 'Reset password: invalid username or email'
          return error_response(e, error,403)
 
+   # @validate_token
    @http.route('/api/contact_us/', type='json',auth="public",csrf=False,website=False,web_content_api=True)
    def create_contact_us(self, **kw):
       print('----------------------------')
@@ -130,6 +198,7 @@ class MobileAPI(http.Controller):
 
          return error_response(e, error,403)
 
+   @validate_token
    @http.route('/api/update_profile/', type='json',auth="public",csrf=False,website=True,web_content_api=True)
    def create_update_profile(self, **kw):
       try:         
@@ -159,6 +228,7 @@ class MobileAPI(http.Controller):
          error = 'Invalid Parameter or Error'
          return error_response(e, error,403)
 
+   @validate_token
    @http.route('/api/user_profile/', type='json',auth="public",csrf=False,website=True,web_content_api=True)
    def user_profile(self, **kw):
       try:

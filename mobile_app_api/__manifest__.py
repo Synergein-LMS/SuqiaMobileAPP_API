@@ -15,7 +15,9 @@
        
     ],
     'data': [
-       
+       'data/ir_config_param.xml',
+       'views/res_users.xml',
+       'security/ir.model.access.csv',
     ],
     'demo': [
 
