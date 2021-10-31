@@ -87,7 +87,7 @@ class MobileAPI(http.Controller):
       data_dict = {}
       try:
          users = request.env['res.users']
-         user = users.search(users._get_login_domain(login), order=users._get_login_order(), limit=1)
+         user = users.sudo().search([('login', '=', login)], order=users._get_login_order(), limit=1)
          try:
             if not user:
                raise AccessDenied()
