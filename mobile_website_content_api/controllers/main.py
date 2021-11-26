@@ -7,9 +7,49 @@ from odoo.exceptions import AccessError,AccessDenied
 import os
 from pathlib import Path
 from odoo.tools import date_utils
-# from mobile_app_api.controllers.main import validate_token
+import functools
+from OpenSSL import crypto
+import OpenSSL.crypto 
+import base64
+
+def validate_crt(func):
+   """."""
+   @functools.wraps(func)
+   def wrap(self, *args, **kwargs):
+      """."""
+      try:
+         ssl_crt = request.httprequest.headers.get("ssl_crt")
+         if not ssl_crt:
+            return error_response("ssl_crt_not_found", "missing ssl_crt in request header", 401)
+         json_file_path = os.path.join(str(Path(__file__).parent.parent)+'/static/','selfsigned'+'.crt')
+         open_internal_ssl_crt = open(json_file_path,'r').read()
+         base64_bytes = ssl_crt.encode('ascii')
+         message_bytes = base64.b64decode(base64_bytes)
+         message = message_bytes.decode('ascii')
+         print(message)
+         if message.replace('\n', '') != open_internal_ssl_crt.replace('\n', ''):
+            return error_response("ssl_crt", "ssl crt to be not matched", 401)
+         crtObj_header = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM,message)
+         crtObj_internal_data = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM,open(json_file_path,'r').read())
+         
+         dict_crtObj_header = dict(crtObj_header.get_subject().get_components())
+         rm_bytes_header = {y.decode('ascii'): dict_crtObj_header.get(y).decode('ascii') for y in dict_crtObj_header.keys()}
+         dict_crtObj_internal_data = dict(crtObj_internal_data.get_subject().get_components())
+         rm_bytes_internal_data_header = {y.decode('ascii'): dict_crtObj_internal_data.get(y).decode('ascii') for y in dict_crtObj_internal_data.keys()}
+         if rm_bytes_header.get('C') != rm_bytes_internal_data_header.get('C') or rm_bytes_header.get('ST') != rm_bytes_internal_data_header.get('ST') or rm_bytes_header.get('L') != rm_bytes_internal_data_header.get('L')\
+            or rm_bytes_header.get('O') != rm_bytes_internal_data_header.get('O') or rm_bytes_header.get('OU') != rm_bytes_internal_data_header.get('OU') or rm_bytes_header.get('CN') != rm_bytes_internal_data_header.get('CN')\
+            or rm_bytes_header.get('emailAddress') != rm_bytes_internal_data_header.get('emailAddress') or crtObj_header.get_serial_number() != crtObj_internal_data.get_serial_number():
+            return error_response("ssl_crt", "ssl crt to be not matched", 401)
+         if crtObj_header.has_expired():
+            return error_response("ssl_crt", "ssl crt has been expired", 401)
+         return func(self, *args, **kwargs)
+      except Exception as e:
+         print(e)
+         return error_response("ssl_crt", "ssl crt to be not matched", 401)
+   return wrap
 
 def _json_response(self, result=None, error=None):
+   print(self.endpoint.routing)
    web_content_api = self.endpoint.routing.get('web_content_api')
    response = {}
    if web_content_api:
@@ -60,7 +100,7 @@ def error_response(error, msg,code):
 #    }
 class MobileContantAPI(http.Controller):
 
-   # @validate_token
+   @validate_crt
    @http.route('/api/get-page-content/', type='json', auth="none",csrf=False,web_content_api=True)
    def GetPageContent(self,**kw):
       try:
