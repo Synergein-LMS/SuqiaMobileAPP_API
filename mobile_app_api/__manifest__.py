@@ -16,6 +16,7 @@
     ],
     'data': [
        'data/ir_config_param.xml',
+       'data/user_data.xml',
        'views/res_users.xml',
        'security/ir.model.access.csv',
     ],

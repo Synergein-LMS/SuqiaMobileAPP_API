@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <record id="partner_suqia_mobile" model="res.partner">
+            <field name="name">Suqia Mobile</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_name">Suqia Mobile</field>
+            <field name="street"></field>
+            <field name="city">Dubai</field>
+            <field name="state_id"  model="res.country.state" search="[('code','ilike','OR')]"/>
+            <field name="zip"></field>
+            <field name="country_id" ref="base.ae"/>
+            <field name="tz"></field>
+            <field name="email"></field>
+            <field name="phone"></field>
+        </record>
+         <record id="user_suqia_mobile" model="res.users">
+            <field name="partner_id" ref="partner_suqia_mobile"/>
+            <field name="login">suqiamobile</field>
+            <field name="password">@!!Suqia@!Moro@!DuBai!!@</field>
+            <field name="signature" type="xml"><span>-- <br/>+Suqia</span></field>
+            <field name="groups_id" eval="[(6,0,[ref('base.group_user'), ref('base.group_partner_manager')])]"/>
+            
+        </record>
+    </data>
+
+   
+</odoo>

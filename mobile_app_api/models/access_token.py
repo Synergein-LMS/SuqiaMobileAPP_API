@@ -29,7 +29,6 @@ class APIAccessToken(models.Model):
     def find_one_or_create_token(self, user_id=None, create=False):
         if not user_id:
             user_id = self.env.user.id
-
         access_token = self.env["api.access_token"].sudo().search([("user_id", "=", user_id)], order="id DESC", limit=1)
         print(access_token,'/////////////////////////////')
         if access_token:
