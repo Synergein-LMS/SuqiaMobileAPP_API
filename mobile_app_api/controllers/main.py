@@ -8,12 +8,13 @@ import logging
 _logger = logging.getLogger(__name__)
 import collections
 from odoo.addons.auth_signup.models.res_users import SignupError
-# from odoo.addons.web.controllers.main import Session
-
 import os
 from pathlib import Path
 from odoo.tools import date_utils
 import functools
+from OpenSSL import crypto
+import OpenSSL.crypto 
+import base64
 
 TOKEN = 'a7e74538828a5dcd6f50a9ea23d3604ec14678da89be7f7d33b993e49158bca7'
 expires_in = "mobile_app_api.access_token_expires_in"
@@ -44,40 +45,61 @@ def success_response(data):
    }
 
 
-# def validate_token(func):
-    
-#     @functools.wraps(func)
-#     def wrap(self, *args, **kwargs):
-#         access_token = request.httprequest.headers.get("access_token")
-#         if not access_token:
-#             return error_response("access_token_not_found", "missing access token in request header", 401)
-#         if access_token != TOKEN:
-#             return error_response("Invalid Access Token", "Invalid Token", 401)
+def validate_crt(func):
+   """."""
+   @functools.wraps(func)
+   def wrap(self, *args, **kwargs):
+      """."""
+      try:
+         ssl_crt = request.httprequest.headers.get("ssl_crt")
+         if not ssl_crt:
+            return error_response("ssl_crt_not_found", "missing ssl_crt in request header", 401)
+         json_file_path = os.path.join(str(Path(__file__).parent.parent)+'/static/','selfsigned'+'.crt')
+         open_internal_ssl_crt = open(json_file_path,'r').read()
+         base64_bytes = ssl_crt.encode('ascii')
+         message_bytes = base64.b64decode(base64_bytes)
+         message = message_bytes.decode('ascii')
+         if message.replace('\n', '') != open_internal_ssl_crt.replace('\n', ''):
+            return error_response("ssl_crt", "ssl crt to be not matched", 401)
+         crtObj_header = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM,message)
+         crtObj_internal_data = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM,open(json_file_path,'r').read())
+         
+         dict_crtObj_header = dict(crtObj_header.get_subject().get_components())
+         rm_bytes_header = {y.decode('ascii'): dict_crtObj_header.get(y).decode('ascii') for y in dict_crtObj_header.keys()}
+         dict_crtObj_internal_data = dict(crtObj_internal_data.get_subject().get_components())
+         rm_bytes_internal_data_header = {y.decode('ascii'): dict_crtObj_internal_data.get(y).decode('ascii') for y in dict_crtObj_internal_data.keys()}
+         if rm_bytes_header.get('C') != rm_bytes_internal_data_header.get('C') or rm_bytes_header.get('ST') != rm_bytes_internal_data_header.get('ST') or rm_bytes_header.get('L') != rm_bytes_internal_data_header.get('L')\
+            or rm_bytes_header.get('O') != rm_bytes_internal_data_header.get('O') or rm_bytes_header.get('OU') != rm_bytes_internal_data_header.get('OU') or rm_bytes_header.get('CN') != rm_bytes_internal_data_header.get('CN')\
+            or rm_bytes_header.get('emailAddress') != rm_bytes_internal_data_header.get('emailAddress') or crtObj_header.get_serial_number() != crtObj_internal_data.get_serial_number():
+            return error_response("ssl_crt", "ssl crt to be not matched", 401)
+         if crtObj_header.has_expired():
+            return error_response("ssl_crt", "ssl crt has been expired", 401)
+         return func(self, *args, **kwargs)
+      except Exception as e:
+         print(e)
+         return error_response("ssl_crt", "ssl crt to be not matched", 401)
+   return wrap
 
-#         return func(self, *args, **kwargs)
-
-#     return wrap
 def validate_token(func):
-    """."""
-
-    @functools.wraps(func)
-    def wrap(self, *args, **kwargs):
-        """."""
-        access_token = request.httprequest.headers.get("access_token")
-        if not access_token:
+   @functools.wraps(func)
+   def wrap(self, *args, **kwargs):
+      data_kw = json.loads(request.httprequest.data)
+      try:
+         access_token = request.httprequest.headers.get("access_token")
+         if not access_token:
             return error_response("access_token_not_found", "missing access token in request header", 401)
-        access_token_data = (
-            request.env["api.access_token"].sudo().search([("token", "=", access_token)], order="id DESC", limit=1)
-        )
-        print(access_token_data,'access_token_dataaccess_token_data')
-        if access_token_data.find_one_or_create_token(user_id=access_token_data.user_id.id) != access_token:
+         access_token_data = (
+            request.env["api.access_token"].sudo().search([("token", "=", access_token),('user_id','=',int(data_kw.get('params')['uid']))], order="id DESC", limit=1)
+         )
+         if access_token_data.find_one_or_create_token(user_id=access_token_data.user_id.id) != access_token:
             return error_response("access_token", "token seems to have expired or invalid", 401)
 
-        request.session.uid = access_token_data.user_id.id
-        request.uid = access_token_data.user_id.id
-        return func(self, *args, **kwargs)
-
-    return wrap
+         request.session.uid = access_token_data.user_id.id
+         request.uid = access_token_data.user_id.id
+         return func(self, *args, **kwargs)
+      except Exception as e:
+         return error_response(e,e, 401)
+   return wrap
     
 class MobileAPI(http.Controller):
 
@@ -113,13 +135,25 @@ class MobileAPI(http.Controller):
       except Exception as e:
          error = "Invalid Database"
          return error_response(e, error,403)
-      _token = request.env["api.access_token"]
-      access_token = _token.find_one_or_create_token(user_id=data.id, create=True)
-      # print(access_token,'access_token.lll.............oooooooooooooo')
       data_dict = request.env['ir.http'].session_info()
-      data_dict.update({'access_token':access_token,'expires_in':request.env.ref(expires_in).sudo().value})
-      return data_dict
+      json_file_path = os.path.join(str(Path(__file__).parent.parent)+'/static/','selfsigned'+'.crt')
+      open_internal_ssl_crt = open(json_file_path,'r').read()
+      sample_string = open_internal_ssl_crt
+      sample_string_bytes = sample_string.encode("ascii")
+      base64_bytes = base64.b64encode(sample_string_bytes)
+      base64_string = base64_bytes.decode("ascii")
+      crtObj_internal_data = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM,open_internal_ssl_crt)
 
+      if request.env.ref('mobile_app_api.user_suqia_mobile').sudo().id == data.id:
+         data_dict.update({'ssl_crt':base64_string,'ssl_expired': True if crtObj_internal_data.has_expired() else False})
+      else:
+         _token = request.env["api.access_token"]
+         access_token = _token.find_one_or_create_token(user_id=data.id, create=True)
+         # print(access_token,'access_token.lll.............oooooooooooooo')
+         data_dict.update({'access_token':access_token,'expires_in':request.env.ref(expires_in).sudo().value})
+      return data_dict
+   
+   @validate_crt
    # @validate_token
    @http.route('/api/sign_up/', type='json',auth="public",csrf=False,website=True)
    def users_create_authenticate(self, **kw):
@@ -143,8 +177,9 @@ class MobileAPI(http.Controller):
          error = "invalid_database"
          return error_response(e, error,403)
 
+   @validate_crt
    # @validate_token
-   @http.route('/api/get_pdf/', type='json',auth='none',csrf=False,web_content_api=True)
+   @http.route('/api/get_pdf/', type='json',auth='public',csrf=False,website=True,web_content_api=True)
    def send_pdf_file(self, **kw):
       try:
          if kw.get('file_name') in ['GENERAL_APPLICATION_GUIDELINES','AWARD_TERMS','AT_GAG'] and kw.get('lang'):
@@ -159,7 +194,8 @@ class MobileAPI(http.Controller):
       except Exception as e:
          error = "Invalid File Name or Invalid Parameter"
          return error_response(e, error,403)
-
+   
+   @validate_crt
    # @validate_token
    @http.route('/api/reset_password/', type='json',auth="public",csrf=False,website=True,web_content_api=True)
    def user_reset_password(self, **kw):
@@ -172,6 +208,7 @@ class MobileAPI(http.Controller):
          error = 'Reset password: invalid username or email'
          return error_response(e, error,403)
 
+   @validate_crt
    # @validate_token
    @http.route('/api/contact_us/', type='json',auth="public",csrf=False,website=False,web_content_api=True)
    def create_contact_us(self, **kw):
@@ -197,7 +234,8 @@ class MobileAPI(http.Controller):
          print(e,'========-----0000000')
 
          return error_response(e, error,403)
-
+   
+   # @validate_crt
    @validate_token
    @http.route('/api/update_profile/', type='json',auth="public",csrf=False,website=True,web_content_api=True)
    def create_update_profile(self, **kw):
@@ -228,8 +266,9 @@ class MobileAPI(http.Controller):
          error = 'Invalid Parameter or Error'
          return error_response(e, error,403)
 
+   # @validate_crt
    @validate_token
-   @http.route('/api/user_profile/', type='json',auth="public",csrf=False,website=True,web_content_api=True)
+   @http.route('/api/user_profile/', type='json',auth="public",csrf=True,website=True,web_content_api=True)
    def user_profile(self, **kw):
       try:
          sudo_users = http.request.env["res.users"].sudo().browse(int(kw.get('uid')))
