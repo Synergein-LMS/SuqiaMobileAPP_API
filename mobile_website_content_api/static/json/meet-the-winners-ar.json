@@ -20,21 +20,21 @@
                       "img": "/mobile_website_content_api/static/images/Meet_the_winners/12202704201720Saif1.JPG",
                       "rank": "المركز الثالث   ",
                       "org": "شركة 'سولار ووتر سوليوشنز' ' وشركة 'P7 غلوبال' ' ",
-                      "title":"المشاريع الصغيرة ",
+                      "title":"جائزة المشاريع الصغيرة ",
                       "country": "فنلندا والإمارات العربية المتحدة  "
                     },
                     {
                         "img": "/mobile_website_content_api/static/images/Meet_the_winners/11%252027042017%2520Saif1.JPG",
                         "rank": "المركز الثاني  ",
                         "org": "اليونان",
-                        "title":"المشاريع الصغيرة ",
+                        "title":"جائزة المشاريع الصغيرة ",
                         "country": "اليونان"
                       },
                       {
                         "img": "/mobile_website_content_api/static/images/Meet_the_winners/10%252027042017%2520Saif1.JPG",
                         "rank": "المركز الأول  ",
                         "org": "شركة 'إليمينتال ووتر ميكرز  ' ",
-                        "title":"المشاريع الصغيرة ",
+                        "title":"جائزة المشاريع الصغيرة ",
                         "country": "هولندا "
                       }
                       
@@ -44,15 +44,15 @@
                 {
                   "img": "/mobile_website_content_api/static/images/Meet_the_winners/Give%2520Power%2520-%2520Hayden.jpg",
                   "rank": "المركز الثالث   ",
-                  "org": "شركة انترناشيونال بزنس فنتيورز (آي. بي. في.) بالشراكة مع زيرو ماس ووتر الإمارات العربية المتحدة والولايات المتحدة  ",
-                  "title":"المشاريع الصغيرة ",
+                  "org": "شركة انترناشيونال بزنس فنتيورز (آي. بي. في.) بالشراكة مع زيرو ماس ووتر | الإمارات العربية المتحدة والولايات المتحدة الأمريكية",
+                  "title": "جائزة المشاريع الصغيرة ",
                   "country": "الأمريكية  "
                 },
                 {
                     "img": "/mobile_website_content_api/static/images/Meet_the_winners/Boreal%2520Light%2520%2520Dr%2520Hameed.jpg",
                     "rank": "المركز الثاني  ",
                     "org": "بوريال لايت ذ.ذ.م. .",
-                    "title":"المشاريع الصغيرة ",
+                    "title":"جائزة المشاريع الصغيرة ",
                     "country": "المانيا  "
                   },
 
@@ -60,7 +60,7 @@
                     "img": "/mobile_website_content_api/static/images/Meet_the_winners/IBV%2520and%2520Zero%2520Mass%2520-%2520Sam.jpg",
                     "rank": "المركز الأول  ",
                     "org": "مؤسسة جيف باور  ",
-                    "title":"المشاريع الصغيرة ",
+                    "title":"جائزة المشاريع الصغيرة ",
                     "country": "الولايات المتحدة الأمريكية  "
                   }
               ]

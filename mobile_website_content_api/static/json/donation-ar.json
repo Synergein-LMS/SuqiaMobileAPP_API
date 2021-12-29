@@ -53,42 +53,47 @@
 
         ]
           },
-      "sponsor_project":{
+        "sponsor_project": {
           "sponsor_project_id": 1,
-          "title":"قم برعاية مشروع ",
-          "button_name":"قم برعاية مشروع ",
-          "content": "المجتمعات التالية بحاجة لمساعدتك! بإمكانك اختيار رعاية مشروع مياه بأكمله لأي من المجتمعات المدرجة في الأسفل: ",
-          "sponsor":[{"sponsor_id":1,
-                      "title":"قم برعاية مشروع ",
-                      "amount":"120,000 درهم إماراتي ",
-                      "sponsor_title":["المشروع ","ممشروع مياه في مالي"],
-                      "location":["الموقع ","مالي "],
-                      "beneficiaries":["عدد المستفيدين:","8,000 شخص  "],
-                      "type_of_solution":["نوع الحل: ","بئر ارتوازي "],
-                      "img":"/mobile_website_content_api/static/images/Donate/Mali.jpg"
-          },{"sponsor_id":2,
-                      "title":"قم برعاية مشروع ",
-                      "amount":"52,500 درهم إماراتي  ",
-                      "sponsor_title":["المشروع: ","مشروع مياه في بنغلاديش  "],
-                      "location":["الموقع:","بنغلاديش  "],
-                      "beneficiaries":["عدد المستفيدين:","400"],
-                      "type_of_solution":["نوع الحل: ","بئر بمضخة كهربائية مع فلتر "],
-                      "img":"/mobile_website_content_api/static/images/Donate/Bangladesh.JPG"
-          },
-          {"sponsor_id":3,
-                      "title":"قم برعاية مشروع ",
-                      "amount":"6,315 درهم إماراتي ",
-                      "sponsor_title":["المشروع:","مشروع مياه في بنغلاديش   "],
-                      "location":["الموقع: ","بنين "],
-                      "beneficiaries":["عدد المستفيدين: ","250 شخص  "],
-                      "type_of_solution":["نوع الحل  "," بئر سطحي  "],
-                      "img":"/mobile_website_content_api/static/images/Donate/Benin.jpg"
-          }
-         
+          "title": "قم برعاية مشروع ",
+          "button_name": "قم برعاية مشروع ",
+          "content": "طرق أخرى للتبرع: ",
+          "sponsor": [
+            {
+              "sponsor_id": 1,
+              "title": "قم برعاية مشروع ",
+              "amount": "120,000 درهم إماراتي ",
+              "sponsor_title": [ "المشروع ", "ممشروع مياه في مالي" ],
+              "location": [ "الموقع ", "مالي " ],
+              "beneficiaries": [ "عدد المستفيدين:", "8,000 شخص  " ],
+              "type_of_solution": [ "نوع الحل: ", "بئر ارتوازي " ],
+              "img": "/mobile_website_content_api/static/images/Donate/Mali.jpg"
+            },
+            {
+              "sponsor_id": 2,
+              "title": "قم برعاية مشروع ",
+              "amount": "52,500 درهم إماراتي  ",
+              "sponsor_title": [ "المشروع: ", "مشروع مياه في بنغلاديش  " ],
+              "location": [ "الموقع:", "بنغلاديش  " ],
+              "beneficiaries": [ "عدد المستفيدين:", "400" ],
+              "type_of_solution": [ "نوع الحل: ", "بئر بمضخة كهربائية مع فلتر " ],
+              "img": "/mobile_website_content_api/static/images/Donate/Bangladesh.JPG"
+            },
+            {
+              "sponsor_id": 3,
+              "title": "قم برعاية مشروع ",
+              "amount": "6,315 درهم إماراتي ",
+              "sponsor_title": [ "المشروع:", "مشروع مياه في بنغلاديش   " ],
+              "location": [ "الموقع: ", "بنين " ],
+              "beneficiaries": [ "عدد المستفيدين: ", "250 شخص  " ],
+              "type_of_solution": [ "نوع الحل  ", " بئر سطحي  " ],
+              "img": "/mobile_website_content_api/static/images/Donate/Benin.jpg"
+            }
 
-        ]
+
+          ]
         },
-        "other_way_donate":{"title":"المجتمعات التالية بحاجة لمساعدتك! بإمكانك اختيار رعاية مشروع مياه بأكمله لأي من المجتمعات المدرجة في الأسفل: ",
+        "other_way_donate":{"title":"اطرق أخرى للتبرع",
         "donate_sms":{ "donate_sms_id":1,
                               "title":"الرسائل النصية ",
                               "content":"للتبرع برسالة نصية أرسل 'سقيا ' (اتصالات أو دو) على الأرقام التالية : ",
