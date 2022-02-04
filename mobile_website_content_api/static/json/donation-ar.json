@@ -18,7 +18,7 @@
         ],
         "one_time_donation":
         {"one_time_donation_id":1,
-          "title":"تبرع مرة واحدة ",
+          "title":"طرق أخرى للتبرع",
           "content":"ساهم في تمويل مشاريعنا التي تهدف في توفير المياه الصالحة للشرب للمجتمعات المحتاجة. ",
           "donation_amount":[{
                               "donation_amount_id":1,

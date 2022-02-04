@@ -57,7 +57,7 @@
           "award_categories":{
 
             "title":"فئات الجائزة",
-            "content":"تتكون الجائزة من 4 فئات رئيسية، تستهدف منظمات رائدة ومراكز بحثية ومبتكرين من جميع أنحاء العالم، لتحفيز المشاركين على التوصل إلى حلول مبتكرة تعمل بالطاقة المتجددة بهدف إنتاج، أو توزيع، أو تخزين، أو مراقبة الجودة، أو تحلية، أو تنقية المياه::",
+            "content":"تتكون الجائزة من 4 فئات رئيسية، تستهدف منظمات رائدة ومراكز بحثية ومبتكرين من جميع أنحاء العالم، لتحفيز المشاركين على التوصل إلى حلول مبتكرة تعمل بالطاقة المتجددة بهدف إنتاج، أو توزيع، أو تخزين، أو مراقبة الجودة، أو تحلية، أو تنقية المياه:",
             "categories":[" جائزة المشاريع المبتكرة","جائزة الابتكارات الفردية","جائزة الابتكار في البحث والتطوير", "جائزة الحلول المبتكرة للأزمات"],
             "img":["/mobile_website_content_api/static/images/award/award_cat1_ar.png","/mobile_website_content_api/static/images/award/award_cat2_ar.png","/mobile_website_content_api/static/images/award/award_cat3_ar.png","/mobile_website_content_api/static/images/award/Innovative-Crisis-Solutions-Award-Arabic.png"]
 
