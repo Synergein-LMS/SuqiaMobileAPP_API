@@ -18,7 +18,7 @@
         ],
         "one_time_donation":
         {"one_time_donation_id":1,
-          "title":"طرق أخرى للتبرع",
+          "title":"تبرع مرة واحدة ",
           "content":"ساهم في تمويل مشاريعنا التي تهدف في توفير المياه الصالحة للشرب للمجتمعات المحتاجة. ",
           "donation_amount":[{
                               "donation_amount_id":1,
@@ -93,7 +93,7 @@
 
           ]
         },
-        "other_way_donate":{"title":"اطرق أخرى للتبرع",
+        "other_way_donate":{"title":"طرق أخرى للتبرع",
         "donate_sms":{ "donate_sms_id":1,
                               "title":"الرسائل النصية ",
                               "content":"للتبرع برسالة نصية أرسل 'سقيا ' (اتصالات أو دو) على الأرقام التالية : ",
