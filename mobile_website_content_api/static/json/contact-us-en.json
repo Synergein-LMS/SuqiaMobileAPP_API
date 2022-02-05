@@ -9,7 +9,7 @@
       "headquarters": { "id":1,
                         "icon":"/mobile_website_content_api/static/images/Contact_us/headquarters.png",
                         "title":"HEADQUARTERS",
-                        "address":"UAE Water Aid Foundation\n(Suqia UAE) Office, Ground Floor\nDEWA Head Office , AlGarhoud, Dubai, UAE"       
+                        "address":"UAE Water Aid Foundation\n(Suqia UAE) Office, Ground Floor\nDEWA Head Office , AlGarhoud, Dubai, UAE."       
                       },
       "mailing_address":{"id":2, 
                         "icon":"/mobile_website_content_api/static/images/Contact_us/mailing-address.png",

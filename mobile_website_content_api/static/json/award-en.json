@@ -52,7 +52,7 @@
        "award_categories":{
 
             "title":"AWARD CATEGORIES",
-            "content":"The Award is comprised of 4 main categories that target pioneering organisations, research centres, individuals, educational institutions, and innovators from all around the world to motivate participants.",
+            "content":"The Award is comprised of 4 main categories that target pioneering organisations, research centres, individuals, educational institutions, and innovators from all around the world to motivate participants:",
             "categories":["INNOVATIVE PROJECTS AWARD","INNOVATIVE INDIVIDUAL AWARD","INNOVATIVE RESEARCH & DEVELOPMENT AWARD", "INNOVATIVE CRISIS SOLUTIONS AWARD"],
             "img":["/mobile_website_content_api/static/images/award/award_cat1.png","/mobile_website_content_api/static/images/award/award_cat2.png","/mobile_website_content_api/static/images/award/award_cat3.png","/mobile_website_content_api/static/images/award/Innovative-Crisis-Solutions-Award-English.png"]
         },

@@ -23,14 +23,14 @@
                             "qs_id": 1,
                             "title": "What are the categories of award?",
                             "line1": "The award categories are:",
-                            "line2": "Innovative Projects Award – Small Projects",
-                            "line3": "Innovative Projects Award – Large Projects",
-                            "line4": "Innovative Research and Development Award – National Institutions",
-                            "line5": "Innovative Research and Development Award – International Institutions",
-                            "line6": "Innovative Individual Award – Innovative Youth",
-                            "line7": "Innovative Individual Award – Distinguished Researcher",
-                            "line8": "Innovative Crisis Solutions Award",
-                            "line9": "Please refer to award categorie page for further description"
+                            "line2": "Innovative Projects Award – Small Projects.",
+                            "line3": "Innovative Projects Award – Large Projects.",
+                            "line4": "Innovative Research and Development Award – National Institutions.",
+                            "line5": "Innovative Research and Development Award – International Institutions.",
+                            "line6": "Innovative Individual Award – Innovative Youth.",
+                            "line7": "Innovative Individual Award – Distinguished Researcher.",
+                            "line8": "Innovative Crisis Solutions Award.",
+                            "line9": "Please refer to award categorie page for further description."
                         },
                         {
                             "qs_id": 2,
@@ -48,7 +48,7 @@
                         {
                             "qs_id": 3,
                             "title": "Whom were the winners of the previous cycles of the Award?",
-                            "line1": "Please refer to meet our winners page for further details",
+                            "line1": "Please refer to meet our winners page for further details.",
                             "line2": "",
                             "line3": "",
                             "line4": "",
@@ -74,7 +74,7 @@
                         {
                             "qs_id": 5,
                             "title": "How many cycles has the award completed up to date?",
-                            "line1": "Two cycles, the Mohammed bin Rashid Al Maktoum Global Water Award 1st and 2ndcycles",
+                            "line1": "Two cycles, the Mohammed bin Rashid Al Maktoum Global Water Award 1st and 2ndcycles.",
                             "line2": "",
                             "line3": "",
                             "line4": "",
@@ -178,7 +178,7 @@
                             "qs_id": 1,
                             "title": "When can I apply?",
                             "line1": "For the 3rd cycle, you can submit your applications starting from November 16th, 2020 to April 30th, 2021 (Midnight UAE Time)",
-                            "line2": "Announcement: The deadline for the 3rd Mohammed bin Rashid Al Maktoum Global Water Award has been extended to May 31st 2021 (Midnight UAE Time)",
+                            "line2": "Announcement: The deadline for the 3rd Mohammed bin Rashid Al Maktoum Global Water Award has been extended to May 31st 2021 (Midnight UAE Time).",
                             "line3": "",
                             "line4": "",
                             "line5": "",
@@ -190,7 +190,7 @@
                         {
                             "qs_id": 2,
                             "title": "How can I apply?",
-                            "line1": "You may apply by first creating an account and then filling the application form, including the relevant attachments, to submit your application. To create an account Please refer to sign-up page",
+                            "line1": "You may apply by first creating an account and then filling the application form, including the relevant attachments, to submit your application. To create an account Please refer to sign-up page.",
                             "line2": "",
                             "line3": "",
                             "line4": "",
@@ -216,7 +216,7 @@
                         {
                             "qs_id": 4,
                             "title": "What are the requirements for applying?",
-                            "line1": "Please see the  General Application Guidelines  before submitting your application",
+                            "line1": "Please see the  General Application Guidelines  before submitting your application.",
                             "line2": "",
                             "line3": "",
                             "line4": "",
@@ -242,7 +242,7 @@
                         {
                             "qs_id": 6,
                             "title": "Do I need to upload a copy of passport/ID when applying?",
-                            "line1": "Yes, it is required to be able to submit the application through the online portal. Also it is required for Application Team for statistical purposes and to verify the applicant’s age if applying for the Youth Award Sub Category under the  Innovative Individual Award Category",
+                            "line1": "Yes, it is required to be able to submit the application through the online portal. Also it is required for Application Team for statistical purposes and to verify the applicant’s age if applying for the Youth Award Sub Category under the  Innovative Individual Award Category.",
                             "line2": "",
                             "line3": "",
                             "line4": "",
@@ -268,7 +268,7 @@
                         {
                             "qs_id": 8,
                             "title": "In case I missed the deadline, can I still apply for the current cycle?",
-                            "line1": "The online form will remain available for a few days after the deadline. You may apply, but the Application Team reserves the right to deduct points or reject your application completely for tardiness",
+                            "line1": "The online form will remain available for a few days after the deadline. You may apply, but the Application Team reserves the right to deduct points or reject your application completely for tardiness.",
                             "line2": "",
                             "line3": "",
                             "line4": "",

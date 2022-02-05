@@ -125,7 +125,7 @@
 }]},
         "donate_bank": { "donate_bank_id":1,
                               "title":"Bank Transfer",
-                              "content":"Deposit into account name UAE Water Aid ( Suqia ) foundation",
+                              "content":"Deposit into account name UAE Water Aid ( Suqia ) foundation:",
                               "donation_details":{"title_1":"Bank /",
                                                     "title_2":"Account Number",
                                                     "details":[{"details_col":1,

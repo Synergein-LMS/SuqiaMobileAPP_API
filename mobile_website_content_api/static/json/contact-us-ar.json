@@ -9,7 +9,7 @@
       "headquarters": { "id":1,
                         "icon":"/mobile_website_content_api/static/images/Contact_us/headquarters.png",
                         "title":"المقر  ",
-                        "address":"مكتب مؤسسة سقيا  الإمارات ، الطابق الإرضي  \nالمقرر الرئيسي للهيئة ، القرهود ، دبي  "       
+                        "address":"مكتب مؤسسة سقيا  الإمارات ، الطابق الإرضي  \nالمقرر الرئيسي للهيئة ، القرهود ، دبي."       
                       },
       "mailing_address":{ "id":2,                          
                         "icon":"/mobile_website_content_api/static/images/Contact_us/mailing-address.png",

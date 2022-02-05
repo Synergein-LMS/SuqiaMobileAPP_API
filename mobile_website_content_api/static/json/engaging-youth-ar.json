@@ -23,34 +23,34 @@
             {
               "list_content_id":1,
               "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-01.svg",
-               "content":"نشر الوعي فيما يتعلق بأزمة المياه العالمية"
+               "content":".نشر الوعي فيما يتعلق بأزمة المياه العالمية"
             
             },
             {  "list_content_id":2,
 
               "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-02.svg",
-               "content":"تثقيف الشباب ليصبحوا مدركين لاستهلاكهم للمياه وسلوكهم"
+               "content":".تثقيف الشباب ليصبحوا مدركين لاستهلاكهم للمياه وسلوكهم"
               
             },
             {
                 "list_content_id":3,
 
               "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-03.svg",
-               "content":"تمكين الشباب وإطلاق العنان لإبداعاتهم لتصميم عالم أفضل باستخدام التكنولوجيا الحديثة"
+               "content":".تمكين الشباب وإطلاق العنان لإبداعاتهم لتصميم عالم أفضل باستخدام التكنولوجيا الحديثة"
               
             },
             {
                 "list_content_id":4,
 
               "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-04.svg",
-               "content":"ترسيخ مفاهيم الابتكار، والاستدامة، والعطاء"
+               "content":".ترسيخ مفاهيم الابتكار، والاستدامة، والعطاء"
               
             },
             {
                 "list_content_id":5,
 
               "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-05.svg",
-               "content":"إلهام الأجيال المستقبلية، والمساعدة في إعداد قيادات شابة في مجال المساعدات الإنسانية"
+               "content":".إلهام الأجيال المستقبلية، والمساعدة في إعداد قيادات شابة في مجال المساعدات الإنسانية"
               
             }
             

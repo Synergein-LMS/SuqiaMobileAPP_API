@@ -23,40 +23,40 @@
             {
               "list_content_id":1,
               "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-01.svg",
-              "content":"Spread awareness on the global water crisis"
+              "content":"Spread awareness on the global water crisis."
             
             },
             {  "list_content_id":2,
 
                 "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-02.svg",
-                "content":"Educate youth to become mindful of their water consumption and behaviour"
+                "content":"Educate youth to become mindful of their water consumption and behaviour."
               
             },
             {
                 "list_content_id":3,
 
                 "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-03.svg",
-                "content":"Empower youth and unleash their creativity to design a better world using new technologies"
+                "content":"Empower youth and unleash their creativity to design a better world using new technologies."
               
             },
             {
                 "list_content_id":4,
 
                 "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-04.svg",
-                "content":"Embed the concepts of innovation, sustainability and giving"
+                "content":"Embed the concepts of innovation, sustainability and giving."
             },
             {
                 "list_content_id":5,
 
                 "svg_icon_path": "/mobile_website_content_api/static/images/engaging_youth/EY-05.svg",
-                "content":"Inspire future generations and help shape leaders of tomorrow in the field of humanitarian aid"
+                "content":"Inspire future generations and help shape leaders of tomorrow in the field of humanitarian aid."
               
             }
             
             
           ]
         },
-        "water_challenge":{"title":"The water challenge will continue to persist, and together with a conscious generation, we will be able to address the global water crisis and create a better future where all people have access to clean drinking water",
+        "water_challenge":{"title":"The water challenge will continue to persist, and together with a conscious generation, we will be able to address the global water crisis and create a better future where all people have access to clean drinking water.",
             "programee":[{"programee_id":1,
                           "title":"WATER: THE GLOBAL PASSPORT PROGRAMME",
                           "img":"/mobile_website_content_api/static/images/engaging_youth/eyouth-1.png",
