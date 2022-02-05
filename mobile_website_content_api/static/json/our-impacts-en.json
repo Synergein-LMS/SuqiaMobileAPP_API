@@ -29,7 +29,7 @@
             "title":"+1,000",
             "desc":"WATER PROJECTS",
             "img_type":"/mobile_website_content_api/static/images/Our_impact/water-projects.png",
-            "content":"This number represents all water projects funded by Suqia. It includes both completed projects and projects under construction. This number is updated periodically"
+            "content":"This number represents all water projects funded by Suqia. It includes both completed projects and projects under construction. This number is updated periodically."
             
           },
           
@@ -38,7 +38,7 @@
             "title":"+13 MILLION",
             "desc":"LIVES IMPACTED",
             "img_type":"/mobile_website_content_api/static/images/Our_impact/lives-impacted.png",
-            "content":"This number represents the total number of people who gained and will gain access to clean water. This number is updated periodically"
+            "content":"This number represents the total number of people who gained and will gain access to clean water. This number is updated periodically."
             
           }
           
