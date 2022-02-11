@@ -14,7 +14,7 @@
     "mailing_address":{ "id":2,                          
                       "icon":"/mobile_website_content_api/static/images/Contact_us/mailing-address.png",
                       "title":"صندوق البريد ",
-                      "address":"هيئة كهرباء ومياه دبي,\nصندوق البريد 564,دبي - دولة الإمارات العربية المتحدة,\ninfo@suqia.ae"       
+                      "address":"هيئة كهرباء ومياه دبي,\nصندوق البريد 564, دبي - دولة الإمارات العربية المتحدة,\ninfo@suqia.ae"       
                     },
     "contact_number":{"id":3, 
                       "icon":"/mobile_website_content_api/static/images/Contact_us/contact-number.png",
