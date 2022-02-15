@@ -44,9 +44,9 @@
                 {
                   "img": "/mobile_website_content_api/static/images/Meet_the_winners/Give%2520Power%2520-%2520Hayden.jpg",
                   "rank": "المركز الأول",
-                    "org": "شركة انترناشيونال بزنس فنتيورز (آي. بي. في.) بالشراكة مع زيرو ماس ووتر",
-                  "title": "جائزة المشاريع الصغيرة",
-                  "country": "الإمارات العربية المتحدة والولايات المتحدة الأمريكية"
+                  "org": "مؤسسة جيف باور",
+                  "title":"جائزة المشاريع الصغيرة",
+                  "country": "الولايات المتحدة الأمريكية"
                 },
                 {
                     "img": "/mobile_website_content_api/static/images/Meet_the_winners/Boreal%2520Light%2520%2520Dr%2520Hameed.jpg",
@@ -59,9 +59,9 @@
                   {
                     "img": "/mobile_website_content_api/static/images/Meet_the_winners/IBV%2520and%2520Zero%2520Mass%2520-%2520Sam.jpg",
                     "rank": "المركز الثالث",
-                  "org": "مؤسسة جيف باور",
-                  "title":"جائزة المشاريع الصغيرة",
-                  "country": "الولايات المتحدة الأمريكية"
+                    "org": "شركة انترناشيونال بزنس فنتيورز (آي. بي. في.) بالشراكة مع زيرو ماس ووتر",
+                    "title": "جائزة المشاريع الصغيرة",
+                    "country": "الإمارات العربية المتحدة والولايات المتحدة الأمريكية"
                   }
               ]
             },
