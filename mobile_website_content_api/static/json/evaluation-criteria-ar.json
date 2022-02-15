@@ -7,7 +7,7 @@
       "content":"سيتم تقييم الطلبات وفق مجموعة من المعايير على حسب فئة التقديم (جائزة المشاريع المبتكرة، جائزة الابتكار في البحث والتطوير، جائزة الابتكارات الفردية وجائزة الحلول المبتكرة للأزمات) لضمان تقييم الطلبات، واختيار الفائزين بشكل عادل.",
       "Note:": "*ملاحظة: 'محلي' في السياق أدناه قد يشير إلى منطقة أو بلد تطوير/تنفيذ المشروع أو المشروع المخطط له.",
       "sections": {
-                   "banner":"/mobile_website_content_api/static/images/award/Rectangle_692.png",
+      "banner":"/mobile_website_content_api/static/images/award/awards-header-bg.jpg",  
 
         "award_criteria":[
             {   "criteria_id":1,

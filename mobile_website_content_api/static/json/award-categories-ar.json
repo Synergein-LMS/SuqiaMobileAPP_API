@@ -5,7 +5,7 @@
     "page_title": "الجائزة",
     "img_base_url": "https://www.suqia.ae",
     "sections": {
-     "banner":"/mobile_website_content_api/static/images/award/Rectangle_692.png",
+    "banner":"/mobile_website_content_api/static/images/award/awards-header-bg.jpg",   
 
     "award_categories":{
 

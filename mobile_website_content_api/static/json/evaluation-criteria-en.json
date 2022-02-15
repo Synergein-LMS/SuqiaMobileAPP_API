@@ -7,7 +7,7 @@
       "content":"Applications will be evaluated against a set of evaluation criteria relevant to the applied category (Innovative Projects Award, Innovative Research & Development Award, Innovative Individual Award and Innovative Crisis Solutions Award) in order to ensure fair and appropriate scoring of entries and selection of winners.",
       "Note:": "*Note:'Local' in the below context refers to the local to the area/country of the project development or implementation (or intended implementation).",
       "sections": {
-                   "banner":"/mobile_website_content_api/static/images/award/Rectangle_692.png",
+      "banner":"/mobile_website_content_api/static/images/award/awards-header-bg.jpg",  
 
         "award_criteria":[
             {   "criteria_id":1,
